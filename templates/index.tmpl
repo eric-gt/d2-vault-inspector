@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/htmx.org@1.9.8"></script>
+        <link rel="stylesheet" href="/static/css/styles.css"></link>
+    </head>
+    <body>
+        <h1>{{ .title }}</h1>
+        <input class="my-2 rounded border-2 border-slate-70" type="text" name="searchString"
+            hx-get="/get-guardians-by-prefix"
+            hx-trigger="keyup changed delay:500ms"
+            hx-target="#search-results"
+            placeholder="Search for a guardian..."
+        >
+        <div class="my-2"id="search-results"></div>
+        {{template "vault.tmpl"}}
+    </body>
+</html>

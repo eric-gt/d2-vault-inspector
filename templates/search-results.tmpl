@@ -1,0 +1,9 @@
+{{ range .results }}
+<div class="my-5 rounded border-2 bg-white hover:bg-sky-500">
+    <a hx-get="/get-guardian-by-id" id="guardianId-{{.ID}}" hx-vals='{"guardianId": "{{.ID}}"}' hx-target="#vault">
+        <p id="guardianName">
+            {{.Name}}
+        </p>
+    </a>
+</div>
+{{ end }}
