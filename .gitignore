@@ -22,3 +22,4 @@ go.work
 dist/
 env.local
 *_templ.go
+.DS_Store

@@ -1,7 +1,7 @@
 package main
 
+//go:generate oapi-codegen --package=main -generate=types -o ./bungie.gen.go ./openapi.json
 import (
-	"bytes"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -10,7 +10,9 @@ import (
 	"os"
 	"strconv"
 	"strings"
-	"time"
+
+	"github.com/eric-gt/d2-vault-inspector/D2Client"
+	"github.com/sirupsen/logrus"
 
 	"github.com/gin-gonic/gin"
 )
@@ -18,57 +20,6 @@ import (
 type Guardian struct {
     ID int32 `json:"id"`
     Name string `json:"name"`
-}
-
-type BungieResponse[T any] struct {
-    Response T;
-    ErrorCode int32;
-    ThrottleSeconds int32;
-    Message string;
-    MessageData MessageData;
-    DetailedErrorTrace string;
-}
-
-type MessageData struct {
-    DictionaryContents string;
-    DictionaryKeyTyp string;
-}
-
-type UserInfoCard struct {
-    SupplementalDisplayName string `json:"supplementalDisplayName"`;
-    IconPath string `json:"iconPath"`;
-    CrossSaveOverride int32 `json:"crossSaveOverride"`;
-    ApplicableMembershipType []int32 `json:"applicableMembershipType"`;
-    IsPublic bool `json:"isPublic"`;
-    MembershipType int32 `json:"membershipType"`;
-    MembershipId int64 `json:"membershipId"`;
-    BungieGlobalDisplayName string `json:"bungieGlobalDisplayName"`;
-    BungieGlobalDisplayNameCode int16 `json:"bungieGlobalDisplayNameCode"`;
-}
-
-type DestinyProfileResponse struct {
-    ResponseMintedTimestamp time.Time `json:"responseMintedTimestamp"`;
-    SecondaryComponentsMintedTimestamp time.Time `json:"secondaryComponentsMintedTimestamp"`;
-    VendorReceipts VendorReceipts `json:"vendorReceipts"`;
-    ProfileInventory ProfileInventory `json:"profileInventory"`;
-    ProfileCurrencies ProfileCurrencies `json:"profileCurrencies"`;
-    Profile Profile  `json:"profile"`;
-    PlatformSilver PlatformSilver `json:"platformSilver"`;
-    profileKiosks ProfileKiosks `json:"profileKiosks"`;
-
-}
-
-type VendorReceipts struct {
-}
-type ProfileInventory struct {
-}
-type ProfileCurrencies struct {
-}
-type Profile struct {
-}
-type PlatformSilver struct {
-}
-type ProfileKiosks struct {
 }
 
 var Guardians []Guardian =  []Guardian{{ID: 1, Name: "guardian1"}, {ID: 2, Name:"guardian2"},{ID: 3, Name:  "guardian3"},{ID: 4, Name:  "aztecross"},{ID:5, Name:"datto"},{ID:6, Name:  "itsmefallout"},{ID:7, Name: "travelDanielle"},{ID: 8, Name:"taekwondork"}};
@@ -100,14 +51,56 @@ func serveHomePage(c *gin.Context) {
 }
 
 func getGuardiansByNamePrefix(c *gin.Context) {
-    prefix := c.Query("searchString");
-    if prefix == "" {
-        c.HTML(http.StatusOK, "search-results.tmpl", gin.H{
-            "results": []Guardian{},
+    client := getBungieClient();
+    playerName := c.Query("searchString");
+    response, err := client.Destiny2Api.Destiny2SearchDestinyPlayerByBungieName(c, D2Client.UserExactSearchRequest{DisplayName: playerName}, -1);
+    if err != nil {
+        logrus.Error(err);
+        c.HTML(http.StatusInternalServerError, "search-results.tmpl", gin.H{
+            "results":[]D2Client.UserUserInfoCard{},
+            "message": "Results could not be loaded, the server encountered an error",
         });
         return;
     }
-    results := filter(Guardians, prefix);
+    body, err := io.ReadAll(response.Body);
+    if err != nil {
+        logrus.Error(err);
+        c.HTML(http.StatusInternalServerError, "search-results.tmpl", gin.H{
+            "results":[]D2Client.UserUserInfoCard{},
+            "message": "Results could not be loaded, the server encountered an error",
+        });
+        return;
+    }
+    var d2Response D2Client.BungieResponse[[]D2Client.UserUserInfoCard];
+    err = json.Unmarshal(body, d2Response);
+
+    if err != nil {
+        logrus.Error(err);
+        c.HTML(http.StatusInternalServerError, "search-results.tmpl", gin.H{
+            "results":[]D2Client.UserUserInfoCard{},
+            "message": "Results could not be loaded. Refresh the page and try again",
+        });
+        return;
+    }
+
+    if response.StatusCode > 300 {
+        logrus.Error(response);
+        c.HTML(http.StatusInternalServerError, "search-results.tmpl", gin.H{
+            "results":[]D2Client.UserUserInfoCard{},
+            "message": "Results could not be loaded, the Destiny API responded with an error",
+        });
+        return;
+    }
+    if d2Response.ErrorCode > 1 {
+        handleBungieErrorCode[[]D2Client.UserUserInfoCard](d2Response);
+        return;
+    }
+    results := d2Response.Response;
+    if results == nil {
+        c.HTML(http.StatusNotFound, "search-results.tmpl", gin.H{
+            "results": []D2Client.UserUserInfoCard{},
+        });
+    }
     c.HTML(http.StatusOK, "search-results.tmpl", gin.H{
         "results": results,
     });
@@ -115,6 +108,7 @@ func getGuardiansByNamePrefix(c *gin.Context) {
 
 func constructVaultForGuardian(c *gin.Context) {
     guardianId := c.Query("guardianId");
+    membershipType := c.Query("membershipType");
     parsedId, err := strconv.ParseInt(guardianId, 10, 32);
     if err != nil {
         c.HTML(http.StatusBadRequest, "err.tmpl", gin.H{
@@ -122,74 +116,70 @@ func constructVaultForGuardian(c *gin.Context) {
         });
         return;
     }
-    for _,guardian := range Guardians {
-        if guardian.ID == int32(parsedId) {
-            c.HTML(http.StatusOK, "vault.tmpl", gin.H{
-                "Guardian": guardian,
-            });
-            return;
-        }
-    }
-    c.HTML(http.StatusNotFound, "vault.tmpl", gin.H{
-        "guardian": nil,
-    });
-}
-
-func getMembershipTypesByGuardianName(guardianName string, client *http.Client) ([]UserInfoCard) {
-    bungieClient := &http.Client{};
-    postBody,_ := json.Marshal(map[string]string{"displayName": guardianName});
-    responseBody := bytes.NewBuffer(postBody);
-    request := getBungieRequest("POST", "Platform/Destiny2/SearchDestinyPlayerByBungieName/-1", responseBody);
-    request.Header.Add("Content-Type", "application/json");
-
-    resp, err := bungieClient.Do(request);
+    parsedMembership,err := strconv.ParseInt(membershipType, 10, 32);
     if err != nil {
-        return []UserInfoCard{};
+        c.HTML(http.StatusBadRequest, "err.tmpl", gin.H{
+            "err": fmt.Sprintf("Error fetching Guardian: %v", err),
+        });
+        return;
     }
-
-    body, err := io.ReadAll(resp.Body);
+    client := getBungieClient();
+    opts := &D2Client.Destiny2ApiDestiny2GetProfileOpts{};
+    response, err := client.Destiny2Api.Destiny2GetProfile(c, parsedId, int32(parsedMembership), opts)
     if err != nil {
-        return []UserInfoCard{}
-    }
-
-    defer resp.Body.Close();
-    var bungieResponse *BungieResponse[[]UserInfoCard];
-
-    err = json.Unmarshal(body, bungieResponse);
-    if err != nil {
-        return []UserInfoCard{};
-    }
-
-    if bungieResponse.ErrorCode > 1 {
-        handleBungieErrorCode[[]UserInfoCard](bungieResponse);
-    }
-    return bungieResponse.Response;
-}
-
-func getGuardianProfileByIdAndType(guardianId int32, membershipType int16) (*DestinyProfile) {
-    bungieClient := &http.Client{};
-    path := fmt.Sprintf("Destiny2/%v/Profile/%v/", membershipType, guardianId);
-    request := getBungieRequest("GET", path, nil);
-    response, err := bungieClient.Do(request);
-    if err != nil {
-        return *DestinyProfile{};
+        logrus.Error(err);
+        c.HTML(http.StatusInternalServerError, "vault.tmpl", gin.H{
+            "error": "Unable to load vault, the server encountered an error",
+        });
+        return
     }
 
     body, err := io.ReadAll(response.Body);
     if err != nil {
-        return *DestinyProfile{};
+        logrus.Error(err);
+        c.HTML(http.StatusInternalServerError, "vault.tmpl", gin.H{
+            "error": "Unable to load vault, the server encountered an error",
+        });
+        return
     }
-    var bungieResponse *BungieResponse[DestinyProfileResponse];
-    err := json.Unmarshal(body, bungieResponse);
 
+    if response.Status != "200 OK" {
+        logrus.Error(response);
+        c.HTML(http.StatusInternalServerError, "vault.tmpl", gin.H{
+            "error": "Unable to load vault, the server received an error from Bungie",
+        });
+        return
+    }
+
+    var bungieResponse D2Client.BungieResponse[D2Client.DestinyResponsesDestinyProfileResponse];
+    err = json.Unmarshal(body, bungieResponse);
     if err != nil {
-        return *DestinyProfile{};
+        logrus.Error(err);
+        c.HTML(http.StatusInternalServerError, "vault.tmpl", gin.H{
+            "error": "Unable to load vault, the server encountered an error",
+        });
+        return
     }
 
     if bungieResponse.ErrorCode > 1 {
-        handleBungieErrorCode[DestinyProfileResponse](bungieResponse);
+        handleBungieErrorCode[D2Client.DestinyResponsesDestinyProfileResponse](bungieResponse);
+        return;
     }
-    return &bungieResponse.Response;
+
+   if bungieResponse.Response == nil {
+        c.HTML(http.StatusNotFound, "vault.tmpl", gin.H{
+            "guardian": nil,
+            "error": "Error fetching vault data, the Bungie API did not return a profile",
+        });
+        return;
+   }
+
+    guardian := bungieResponse.Response;
+
+    c.HTML(http.StatusOK, "vault.tmpl", gin.H{
+        "Guardian": guardian,
+    });
+    return;
 }
 
 func filter(ss []Guardian, prefix string) (ret []Guardian) {
@@ -201,18 +191,14 @@ func filter(ss []Guardian, prefix string) (ret []Guardian) {
     return
 }
 
-func getBungieRequest(method string, path string, body io.Reader) *http.Request {
-    baseUrl :=os.Getenv("BUNGIE_API_URL");
-    apiKey := os.Getenv("BUNGIE_API_KEY");
-    url := fmt.Sprintf("%v/%v", baseUrl, path);
-    request,err := http.NewRequest(method, url, body);
-    if err != nil {
-        log.Fatal("error constructing HTTP client for Bungie API");
-    }
-    request.Header.Add("X-API-KEY", apiKey);
-    return request;
+func getBungieClient() (client *D2Client.APIClient) {
+    cfg := D2Client.NewConfiguration();
+    cfg.AddDefaultHeader("X-Api-Key", os.Getenv("BUNGIE_API_KEY"));
+    cfg.UserAgent = "D2-Vault-Inspector";
+    client = D2Client.NewAPIClient(cfg);
+    return; 
 }
 
-func handleBungieErrorCode[T any](response *BungieResponse[T]) {
+func handleBungieErrorCode[T any](response D2Client.BungieResponse[T]) {
     //do the needful
 }

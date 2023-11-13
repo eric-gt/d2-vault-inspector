@@ -1,0 +1,13 @@
+# AllOfDestinyDefinitionsDestinyInventoryItemDefinitionStats
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**DisablePrimaryStatDisplay** | **bool** | If true, the game won&#x27;t show the \&quot;primary\&quot; stat on this item when you inspect it.  NOTE: This is being manually mapped, because I happen to want it in a block that isn&#x27;t going to directly create this derivative block. | [optional] [default to null]
+**StatGroupHash** | **int32** | If the item&#x27;s stats are meant to be modified by a DestinyStatGroupDefinition, this will be the identifier for that definition.  If you are using live data or precomputed stats data on the DestinyInventoryItemDefinition.stats.stats property, you don&#x27;t have to worry about statGroupHash and how it alters stats: the already altered stats are provided to you. But if you want to see how the sausage gets made, or perform computations yourself, this is valuable information. | [optional] [default to null]
+**Stats** | [**map[string]DestinyDefinitionsDestinyInventoryItemStatDefinition**](Destiny.Definitions.DestinyInventoryItemStatDefinition.md) | If you are looking for precomputed values for the stats on a weapon, this is where they are stored. Technically these are the \&quot;Display\&quot; stat values. Please see DestinyStatsDefinition for what Display Stat Values means, it&#x27;s a very long story... but essentially these are the closest values BNet can get to the item stats that you see in-game.  These stats are keyed by the DestinyStatDefinition&#x27;s hash identifier for the stat that&#x27;s found on the item. | [optional] [default to null]
+**HasDisplayableStats** | **bool** | A quick and lazy way to determine whether any stat other than the \&quot;primary\&quot; stat is actually visible on the item. Items often have stats that we return in case people find them useful, but they&#x27;re not part of the \&quot;Stat Group\&quot; and thus we wouldn&#x27;t display them in our UI. If this is False, then we&#x27;re not going to display any of these stats other than the primary one. | [optional] [default to null]
+**PrimaryBaseStatHash** | **int32** | This stat is determined to be the \&quot;primary\&quot; stat, and can be looked up in the stats or any other stat collection related to the item.  Use this hash to look up the stat&#x27;s value using DestinyInventoryItemDefinition.stats.stats, and the renderable data for the primary stat in the related DestinyStatDefinition. | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
