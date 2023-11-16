@@ -13,6 +13,6 @@ type GroupsV2GroupType int32
 
 // List of GroupsV2.GroupType
 const (
-	0__GroupsV2GroupType GroupsV2GroupType = "0"
-	1__GroupsV2GroupType GroupsV2GroupType = "1"
+	_0__GroupsV2GroupType GroupsV2GroupType = 0
+	_1__GroupsV2GroupType GroupsV2GroupType = 1
 )

@@ -13,13 +13,13 @@ type ForumsForumFlagsEnum int32
 
 // List of Forums.ForumFlagsEnum
 const (
-	0__ForumsForumFlagsEnum ForumsForumFlagsEnum = "0"
-	1__ForumsForumFlagsEnum ForumsForumFlagsEnum = "1"
-	2__ForumsForumFlagsEnum ForumsForumFlagsEnum = "2"
-	4__ForumsForumFlagsEnum ForumsForumFlagsEnum = "4"
-	8__ForumsForumFlagsEnum ForumsForumFlagsEnum = "8"
-	16__ForumsForumFlagsEnum ForumsForumFlagsEnum = "16"
-	32__ForumsForumFlagsEnum ForumsForumFlagsEnum = "32"
-	64__ForumsForumFlagsEnum ForumsForumFlagsEnum = "64"
-	128__ForumsForumFlagsEnum ForumsForumFlagsEnum = "128"
+	_0__ForumsForumFlagsEnum ForumsForumFlagsEnum = 0
+	_1__ForumsForumFlagsEnum ForumsForumFlagsEnum = 1
+	_2__ForumsForumFlagsEnum ForumsForumFlagsEnum = 2
+	_4__ForumsForumFlagsEnum ForumsForumFlagsEnum = 4
+	_8__ForumsForumFlagsEnum ForumsForumFlagsEnum = 8
+	_16__ForumsForumFlagsEnum ForumsForumFlagsEnum = 16
+	_32__ForumsForumFlagsEnum ForumsForumFlagsEnum = 32
+	_64__ForumsForumFlagsEnum ForumsForumFlagsEnum = 64
+	_128__ForumsForumFlagsEnum ForumsForumFlagsEnum = 128
 )

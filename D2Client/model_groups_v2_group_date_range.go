@@ -13,9 +13,9 @@ type GroupsV2GroupDateRange int32
 
 // List of GroupsV2.GroupDateRange
 const (
-	0__GroupsV2GroupDateRange GroupsV2GroupDateRange = "0"
-	1__GroupsV2GroupDateRange GroupsV2GroupDateRange = "1"
-	2__GroupsV2GroupDateRange GroupsV2GroupDateRange = "2"
-	3__GroupsV2GroupDateRange GroupsV2GroupDateRange = "3"
-	4__GroupsV2GroupDateRange GroupsV2GroupDateRange = "4"
+	_0__GroupsV2GroupDateRange GroupsV2GroupDateRange = 0
+	_1__GroupsV2GroupDateRange GroupsV2GroupDateRange = 1
+	_2__GroupsV2GroupDateRange GroupsV2GroupDateRange = 2
+	_3__GroupsV2GroupDateRange GroupsV2GroupDateRange = 3
+	_4__GroupsV2GroupDateRange GroupsV2GroupDateRange = 4
 )

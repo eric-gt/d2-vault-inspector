@@ -13,13 +13,13 @@ type DestinySpecialItemType int32
 
 // List of Destiny.SpecialItemType
 const (
-	0__DestinySpecialItemType DestinySpecialItemType = "0"
-	1__DestinySpecialItemType DestinySpecialItemType = "1"
-	8__DestinySpecialItemType DestinySpecialItemType = "8"
-	9__DestinySpecialItemType DestinySpecialItemType = "9"
-	23__DestinySpecialItemType DestinySpecialItemType = "23"
-	24__DestinySpecialItemType DestinySpecialItemType = "24"
-	25__DestinySpecialItemType DestinySpecialItemType = "25"
-	27__DestinySpecialItemType DestinySpecialItemType = "27"
-	29__DestinySpecialItemType DestinySpecialItemType = "29"
+	_0__DestinySpecialItemType DestinySpecialItemType = 0
+	_1__DestinySpecialItemType DestinySpecialItemType = 1
+	_8__DestinySpecialItemType DestinySpecialItemType = 8
+	_9__DestinySpecialItemType DestinySpecialItemType = 9
+	_23__DestinySpecialItemType DestinySpecialItemType = 23
+	_24__DestinySpecialItemType DestinySpecialItemType = 24
+	_25__DestinySpecialItemType DestinySpecialItemType = 25
+	_27__DestinySpecialItemType DestinySpecialItemType = 27
+	_29__DestinySpecialItemType DestinySpecialItemType = 29
 )

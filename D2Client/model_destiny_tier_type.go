@@ -13,11 +13,11 @@ type DestinyTierType int32
 
 // List of Destiny.TierType
 const (
-	0__DestinyTierType DestinyTierType = "0"
-	1__DestinyTierType DestinyTierType = "1"
-	2__DestinyTierType DestinyTierType = "2"
-	3__DestinyTierType DestinyTierType = "3"
-	4__DestinyTierType DestinyTierType = "4"
-	5__DestinyTierType DestinyTierType = "5"
-	6__DestinyTierType DestinyTierType = "6"
+	_0__DestinyTierType DestinyTierType = 0
+	_1__DestinyTierType DestinyTierType = 1
+	_2__DestinyTierType DestinyTierType = 2
+	_3__DestinyTierType DestinyTierType = 3
+	_4__DestinyTierType DestinyTierType = 4
+	_5__DestinyTierType DestinyTierType = 5
+	_6__DestinyTierType DestinyTierType = 6
 )

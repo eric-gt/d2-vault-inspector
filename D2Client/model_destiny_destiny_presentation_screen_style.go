@@ -13,7 +13,7 @@ type DestinyDestinyPresentationScreenStyle int32
 
 // List of Destiny.DestinyPresentationScreenStyle
 const (
-	0__DestinyDestinyPresentationScreenStyle DestinyDestinyPresentationScreenStyle = "0"
-	1__DestinyDestinyPresentationScreenStyle DestinyDestinyPresentationScreenStyle = "1"
-	2__DestinyDestinyPresentationScreenStyle DestinyDestinyPresentationScreenStyle = "2"
+	_0__DestinyDestinyPresentationScreenStyle DestinyDestinyPresentationScreenStyle = 0
+	_1__DestinyDestinyPresentationScreenStyle DestinyDestinyPresentationScreenStyle = 1
+	_2__DestinyDestinyPresentationScreenStyle DestinyDestinyPresentationScreenStyle = 2
 )

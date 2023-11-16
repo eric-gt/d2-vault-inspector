@@ -13,6 +13,6 @@ type ForumForumPostSortEnum int32
 
 // List of Forum.ForumPostSortEnum
 const (
-	0__ForumForumPostSortEnum ForumForumPostSortEnum = "0"
-	1__ForumForumPostSortEnum ForumForumPostSortEnum = "1"
+	_0__ForumForumPostSortEnum ForumForumPostSortEnum = 0
+	_1__ForumForumPostSortEnum ForumForumPostSortEnum = 1
 )

@@ -13,7 +13,7 @@ type DestinyItemPerkVisibility int32
 
 // List of Destiny.ItemPerkVisibility
 const (
-	0__DestinyItemPerkVisibility DestinyItemPerkVisibility = "0"
-	1__DestinyItemPerkVisibility DestinyItemPerkVisibility = "1"
-	2__DestinyItemPerkVisibility DestinyItemPerkVisibility = "2"
+	_0__DestinyItemPerkVisibility DestinyItemPerkVisibility = 0
+	_1__DestinyItemPerkVisibility DestinyItemPerkVisibility = 1
+	_2__DestinyItemPerkVisibility DestinyItemPerkVisibility = 2
 )

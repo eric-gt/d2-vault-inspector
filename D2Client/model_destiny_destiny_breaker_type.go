@@ -13,8 +13,8 @@ type DestinyDestinyBreakerType int32
 
 // List of Destiny.DestinyBreakerType
 const (
-	0__DestinyDestinyBreakerType DestinyDestinyBreakerType = "0"
-	1__DestinyDestinyBreakerType DestinyDestinyBreakerType = "1"
-	2__DestinyDestinyBreakerType DestinyDestinyBreakerType = "2"
-	3__DestinyDestinyBreakerType DestinyDestinyBreakerType = "3"
+	_0__DestinyDestinyBreakerType DestinyDestinyBreakerType = 0
+	_1__DestinyDestinyBreakerType DestinyDestinyBreakerType = 1
+	_2__DestinyDestinyBreakerType DestinyDestinyBreakerType = 2
+	_3__DestinyDestinyBreakerType DestinyDestinyBreakerType = 3
 )

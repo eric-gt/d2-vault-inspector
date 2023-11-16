@@ -13,9 +13,9 @@ type DestinySocketPlugSources int32
 
 // List of Destiny.SocketPlugSources
 const (
-	0__DestinySocketPlugSources DestinySocketPlugSources = "0"
-	1__DestinySocketPlugSources DestinySocketPlugSources = "1"
-	2__DestinySocketPlugSources DestinySocketPlugSources = "2"
-	4__DestinySocketPlugSources DestinySocketPlugSources = "4"
-	8__DestinySocketPlugSources DestinySocketPlugSources = "8"
+	_0__DestinySocketPlugSources DestinySocketPlugSources = 0
+	_1__DestinySocketPlugSources DestinySocketPlugSources = 1
+	_2__DestinySocketPlugSources DestinySocketPlugSources = 2
+	_4__DestinySocketPlugSources DestinySocketPlugSources = 4
+	_8__DestinySocketPlugSources DestinySocketPlugSources = 8
 )

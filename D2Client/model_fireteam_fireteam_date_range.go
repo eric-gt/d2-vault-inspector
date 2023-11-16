@@ -13,9 +13,9 @@ type FireteamFireteamDateRange int32
 
 // List of Fireteam.FireteamDateRange
 const (
-	0__FireteamFireteamDateRange FireteamFireteamDateRange = "0"
-	1__FireteamFireteamDateRange FireteamFireteamDateRange = "1"
-	2__FireteamFireteamDateRange FireteamFireteamDateRange = "2"
-	3__FireteamFireteamDateRange FireteamFireteamDateRange = "3"
-	4__FireteamFireteamDateRange FireteamFireteamDateRange = "4"
+	_0__FireteamFireteamDateRange FireteamFireteamDateRange = 0
+	_1__FireteamFireteamDateRange FireteamFireteamDateRange = 1
+	_2__FireteamFireteamDateRange FireteamFireteamDateRange = 2
+	_3__FireteamFireteamDateRange FireteamFireteamDateRange = 3
+	_4__FireteamFireteamDateRange FireteamFireteamDateRange = 4
 )

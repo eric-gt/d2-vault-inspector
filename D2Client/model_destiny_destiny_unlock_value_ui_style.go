@@ -13,19 +13,19 @@ type DestinyDestinyUnlockValueUiStyle int32
 
 // List of Destiny.DestinyUnlockValueUIStyle
 const (
-	0__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = "0"
-	1__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = "1"
-	2__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = "2"
-	3__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = "3"
-	4__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = "4"
-	5__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = "5"
-	6__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = "6"
-	7__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = "7"
-	8__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = "8"
-	9__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = "9"
-	10__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = "10"
-	11__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = "11"
-	12__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = "12"
-	13__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = "13"
-	14__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = "14"
+	_0__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = 0
+	_1__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = 1
+	_2__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = 2
+	_3__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = 3
+	_4__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = 4
+	_5__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = 5
+	_6__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = 6
+	_7__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = 7
+	_8__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = 8
+	_9__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = 9
+	_10__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = 10
+	_11__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = 11
+	_12__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = 12
+	_13__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = 13
+	_14__DestinyDestinyUnlockValueUiStyle DestinyDestinyUnlockValueUiStyle = 14
 )

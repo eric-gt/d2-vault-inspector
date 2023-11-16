@@ -13,6 +13,6 @@ type DestinyDestinyScope int32
 
 // List of Destiny.DestinyScope
 const (
-	0__DestinyDestinyScope DestinyDestinyScope = "0"
-	1__DestinyDestinyScope DestinyDestinyScope = "1"
+	_0__DestinyDestinyScope DestinyDestinyScope = 0
+	_1__DestinyDestinyScope DestinyDestinyScope = 1
 )

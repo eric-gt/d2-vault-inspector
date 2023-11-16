@@ -13,11 +13,11 @@ type FireteamFireteamPlatform int32
 
 // List of Fireteam.FireteamPlatform
 const (
-	0__FireteamFireteamPlatform FireteamFireteamPlatform = "0"
-	1__FireteamFireteamPlatform FireteamFireteamPlatform = "1"
-	2__FireteamFireteamPlatform FireteamFireteamPlatform = "2"
-	3__FireteamFireteamPlatform FireteamFireteamPlatform = "3"
-	4__FireteamFireteamPlatform FireteamFireteamPlatform = "4"
-	5__FireteamFireteamPlatform FireteamFireteamPlatform = "5"
-	6__FireteamFireteamPlatform FireteamFireteamPlatform = "6"
+	_0__FireteamFireteamPlatform FireteamFireteamPlatform = 0
+	_1__FireteamFireteamPlatform FireteamFireteamPlatform = 1
+	_2__FireteamFireteamPlatform FireteamFireteamPlatform = 2
+	_3__FireteamFireteamPlatform FireteamFireteamPlatform = 3
+	_4__FireteamFireteamPlatform FireteamFireteamPlatform = 4
+	_5__FireteamFireteamPlatform FireteamFireteamPlatform = 5
+	_6__FireteamFireteamPlatform FireteamFireteamPlatform = 6
 )

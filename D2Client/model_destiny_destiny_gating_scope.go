@@ -13,11 +13,11 @@ type DestinyDestinyGatingScope int32
 
 // List of Destiny.DestinyGatingScope
 const (
-	0__DestinyDestinyGatingScope DestinyDestinyGatingScope = "0"
-	1__DestinyDestinyGatingScope DestinyDestinyGatingScope = "1"
-	2__DestinyDestinyGatingScope DestinyDestinyGatingScope = "2"
-	3__DestinyDestinyGatingScope DestinyDestinyGatingScope = "3"
-	4__DestinyDestinyGatingScope DestinyDestinyGatingScope = "4"
-	5__DestinyDestinyGatingScope DestinyDestinyGatingScope = "5"
-	6__DestinyDestinyGatingScope DestinyDestinyGatingScope = "6"
+	_0__DestinyDestinyGatingScope DestinyDestinyGatingScope = 0
+	_1__DestinyDestinyGatingScope DestinyDestinyGatingScope = 1
+	_2__DestinyDestinyGatingScope DestinyDestinyGatingScope = 2
+	_3__DestinyDestinyGatingScope DestinyDestinyGatingScope = 3
+	_4__DestinyDestinyGatingScope DestinyDestinyGatingScope = 4
+	_5__DestinyDestinyGatingScope DestinyDestinyGatingScope = 5
+	_6__DestinyDestinyGatingScope DestinyDestinyGatingScope = 6
 )

@@ -13,6 +13,6 @@ type DestinyDestinyVendorFilter int32
 
 // List of Destiny.DestinyVendorFilter
 const (
-	0__DestinyDestinyVendorFilter DestinyDestinyVendorFilter = "0"
-	1__DestinyDestinyVendorFilter DestinyDestinyVendorFilter = "1"
+	_0__DestinyDestinyVendorFilter DestinyDestinyVendorFilter = 0
+	_1__DestinyDestinyVendorFilter DestinyDestinyVendorFilter = 1
 )

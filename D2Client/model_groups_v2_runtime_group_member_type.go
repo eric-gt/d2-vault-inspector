@@ -13,10 +13,10 @@ type GroupsV2RuntimeGroupMemberType int32
 
 // List of GroupsV2.RuntimeGroupMemberType
 const (
-	0__GroupsV2RuntimeGroupMemberType GroupsV2RuntimeGroupMemberType = "0"
-	1__GroupsV2RuntimeGroupMemberType GroupsV2RuntimeGroupMemberType = "1"
-	2__GroupsV2RuntimeGroupMemberType GroupsV2RuntimeGroupMemberType = "2"
-	3__GroupsV2RuntimeGroupMemberType GroupsV2RuntimeGroupMemberType = "3"
-	4__GroupsV2RuntimeGroupMemberType GroupsV2RuntimeGroupMemberType = "4"
-	5__GroupsV2RuntimeGroupMemberType GroupsV2RuntimeGroupMemberType = "5"
+	_0__GroupsV2RuntimeGroupMemberType GroupsV2RuntimeGroupMemberType = 0
+	_1__GroupsV2RuntimeGroupMemberType GroupsV2RuntimeGroupMemberType = 1
+	_2__GroupsV2RuntimeGroupMemberType GroupsV2RuntimeGroupMemberType = 2
+	_3__GroupsV2RuntimeGroupMemberType GroupsV2RuntimeGroupMemberType = 3
+	_4__GroupsV2RuntimeGroupMemberType GroupsV2RuntimeGroupMemberType = 4
+	_5__GroupsV2RuntimeGroupMemberType GroupsV2RuntimeGroupMemberType = 5
 )

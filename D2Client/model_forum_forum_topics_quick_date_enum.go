@@ -13,9 +13,9 @@ type ForumForumTopicsQuickDateEnum int32
 
 // List of Forum.ForumTopicsQuickDateEnum
 const (
-	0__ForumForumTopicsQuickDateEnum ForumForumTopicsQuickDateEnum = "0"
-	1__ForumForumTopicsQuickDateEnum ForumForumTopicsQuickDateEnum = "1"
-	2__ForumForumTopicsQuickDateEnum ForumForumTopicsQuickDateEnum = "2"
-	3__ForumForumTopicsQuickDateEnum ForumForumTopicsQuickDateEnum = "3"
-	4__ForumForumTopicsQuickDateEnum ForumForumTopicsQuickDateEnum = "4"
+	_0__ForumForumTopicsQuickDateEnum ForumForumTopicsQuickDateEnum = 0
+	_1__ForumForumTopicsQuickDateEnum ForumForumTopicsQuickDateEnum = 1
+	_2__ForumForumTopicsQuickDateEnum ForumForumTopicsQuickDateEnum = 2
+	_3__ForumForumTopicsQuickDateEnum ForumForumTopicsQuickDateEnum = 3
+	_4__ForumForumTopicsQuickDateEnum ForumForumTopicsQuickDateEnum = 4
 )

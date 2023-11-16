@@ -13,11 +13,11 @@ type DestinyDestinyJoinClosedReasons int32
 
 // List of Destiny.DestinyJoinClosedReasons
 const (
-	0__DestinyDestinyJoinClosedReasons DestinyDestinyJoinClosedReasons = "0"
-	1__DestinyDestinyJoinClosedReasons DestinyDestinyJoinClosedReasons = "1"
-	2__DestinyDestinyJoinClosedReasons DestinyDestinyJoinClosedReasons = "2"
-	4__DestinyDestinyJoinClosedReasons DestinyDestinyJoinClosedReasons = "4"
-	8__DestinyDestinyJoinClosedReasons DestinyDestinyJoinClosedReasons = "8"
-	16__DestinyDestinyJoinClosedReasons DestinyDestinyJoinClosedReasons = "16"
-	32768__DestinyDestinyJoinClosedReasons DestinyDestinyJoinClosedReasons = "32768"
+	_0__DestinyDestinyJoinClosedReasons DestinyDestinyJoinClosedReasons = 0
+	_1__DestinyDestinyJoinClosedReasons DestinyDestinyJoinClosedReasons = 1
+	_2__DestinyDestinyJoinClosedReasons DestinyDestinyJoinClosedReasons = 2
+	_4__DestinyDestinyJoinClosedReasons DestinyDestinyJoinClosedReasons = 4
+	_8__DestinyDestinyJoinClosedReasons DestinyDestinyJoinClosedReasons = 8
+	_16__DestinyDestinyJoinClosedReasons DestinyDestinyJoinClosedReasons = 16
+	_32768__DestinyDestinyJoinClosedReasons DestinyDestinyJoinClosedReasons = 32768
 )

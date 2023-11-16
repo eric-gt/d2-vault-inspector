@@ -13,13 +13,13 @@ type DestinyDestinySocketCategoryStyle int32
 
 // List of Destiny.DestinySocketCategoryStyle
 const (
-	0__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = "0"
-	1__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = "1"
-	2__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = "2"
-	3__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = "3"
-	4__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = "4"
-	5__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = "5"
-	6__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = "6"
-	7__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = "7"
-	8__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = "8"
+	_0__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = 0
+	_1__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = 1
+	_2__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = 2
+	_3__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = 3
+	_4__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = 4
+	_5__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = 5
+	_6__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = 6
+	_7__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = 7
+	_8__DestinyDestinySocketCategoryStyle DestinyDestinySocketCategoryStyle = 8
 )

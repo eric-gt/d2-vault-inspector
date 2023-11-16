@@ -13,8 +13,8 @@ type DestinyDestinyActivityModeCategory int32
 
 // List of Destiny.DestinyActivityModeCategory
 const (
-	0__DestinyDestinyActivityModeCategory DestinyDestinyActivityModeCategory = "0"
-	1__DestinyDestinyActivityModeCategory DestinyDestinyActivityModeCategory = "1"
-	2__DestinyDestinyActivityModeCategory DestinyDestinyActivityModeCategory = "2"
-	3__DestinyDestinyActivityModeCategory DestinyDestinyActivityModeCategory = "3"
+	_0__DestinyDestinyActivityModeCategory DestinyDestinyActivityModeCategory = 0
+	_1__DestinyDestinyActivityModeCategory DestinyDestinyActivityModeCategory = 1
+	_2__DestinyDestinyActivityModeCategory DestinyDestinyActivityModeCategory = 2
+	_3__DestinyDestinyActivityModeCategory DestinyDestinyActivityModeCategory = 3
 )

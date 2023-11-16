@@ -13,8 +13,8 @@ type DestinyDestinyClass int32
 
 // List of Destiny.DestinyClass
 const (
-	0__DestinyDestinyClass DestinyDestinyClass = "0"
-	1__DestinyDestinyClass DestinyDestinyClass = "1"
-	2__DestinyDestinyClass DestinyDestinyClass = "2"
-	3__DestinyDestinyClass DestinyDestinyClass = "3"
+	_0__DestinyDestinyClass DestinyDestinyClass = 0
+	_1__DestinyDestinyClass DestinyDestinyClass = 1
+	_2__DestinyDestinyClass DestinyDestinyClass = 2
+	_3__DestinyDestinyClass DestinyDestinyClass = 3
 )

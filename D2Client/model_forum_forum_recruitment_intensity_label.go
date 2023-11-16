@@ -13,7 +13,7 @@ type ForumForumRecruitmentIntensityLabel int32
 
 // List of Forum.ForumRecruitmentIntensityLabel
 const (
-	0__ForumForumRecruitmentIntensityLabel ForumForumRecruitmentIntensityLabel = "0"
-	1__ForumForumRecruitmentIntensityLabel ForumForumRecruitmentIntensityLabel = "1"
-	2__ForumForumRecruitmentIntensityLabel ForumForumRecruitmentIntensityLabel = "2"
+	_0__ForumForumRecruitmentIntensityLabel ForumForumRecruitmentIntensityLabel = 0
+	_1__ForumForumRecruitmentIntensityLabel ForumForumRecruitmentIntensityLabel = 1
+	_2__ForumForumRecruitmentIntensityLabel ForumForumRecruitmentIntensityLabel = 2
 )

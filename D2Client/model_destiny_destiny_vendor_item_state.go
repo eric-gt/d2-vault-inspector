@@ -13,26 +13,26 @@ type DestinyDestinyVendorItemState int32
 
 // List of Destiny.DestinyVendorItemState
 const (
-	0__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "0"
-	1__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "1"
-	2__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "2"
-	4__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "4"
-	8__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "8"
-	16__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "16"
-	32__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "32"
-	64__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "64"
-	128__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "128"
-	256__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "256"
-	512__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "512"
-	1024__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "1024"
-	2048__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "2048"
-	4096__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "4096"
-	8192__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "8192"
-	16384__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "16384"
-	32768__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "32768"
-	65536__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "65536"
-	131072__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "131072"
-	262144__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "262144"
-	524288__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "524288"
-	1048576__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = "1048576"
+	_0__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 0
+	_1__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 1
+	_2__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 2
+	_4__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 4
+	_8__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 8
+	_16__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 16
+	_32__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 32
+	_64__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 64
+	_128__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 128
+	_256__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 256
+	_512__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 512
+	_1024__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 1024
+	_2048__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 2048
+	_4096__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 4096
+	_8192__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 8192
+	_16384__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 16384
+	_32768__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 32768
+	_65536__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 65536
+	_131072__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 131072
+	_262144__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 262144
+	_524288__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 524288
+	_1048576__DestinyDestinyVendorItemState DestinyDestinyVendorItemState = 1048576
 )

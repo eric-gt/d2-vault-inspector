@@ -13,7 +13,7 @@ type DestinyDestinyObjectiveGrantStyle int32
 
 // List of Destiny.DestinyObjectiveGrantStyle
 const (
-	0__DestinyDestinyObjectiveGrantStyle DestinyDestinyObjectiveGrantStyle = "0"
-	1__DestinyDestinyObjectiveGrantStyle DestinyDestinyObjectiveGrantStyle = "1"
-	2__DestinyDestinyObjectiveGrantStyle DestinyDestinyObjectiveGrantStyle = "2"
+	_0__DestinyDestinyObjectiveGrantStyle DestinyDestinyObjectiveGrantStyle = 0
+	_1__DestinyDestinyObjectiveGrantStyle DestinyDestinyObjectiveGrantStyle = 1
+	_2__DestinyDestinyObjectiveGrantStyle DestinyDestinyObjectiveGrantStyle = 2
 )

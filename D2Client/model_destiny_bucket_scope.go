@@ -13,6 +13,6 @@ type DestinyBucketScope int32
 
 // List of Destiny.BucketScope
 const (
-	0__DestinyBucketScope DestinyBucketScope = "0"
-	1__DestinyBucketScope DestinyBucketScope = "1"
+	_0__DestinyBucketScope DestinyBucketScope = 0
+	_1__DestinyBucketScope DestinyBucketScope = 1
 )

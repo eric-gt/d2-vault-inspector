@@ -13,18 +13,18 @@ type BungieCredentialType int32
 
 // List of BungieCredentialType
 const (
-	0__BungieCredentialType BungieCredentialType = "0"
-	1__BungieCredentialType BungieCredentialType = "1"
-	2__BungieCredentialType BungieCredentialType = "2"
-	3__BungieCredentialType BungieCredentialType = "3"
-	4__BungieCredentialType BungieCredentialType = "4"
-	5__BungieCredentialType BungieCredentialType = "5"
-	8__BungieCredentialType BungieCredentialType = "8"
-	9__BungieCredentialType BungieCredentialType = "9"
-	10__BungieCredentialType BungieCredentialType = "10"
-	12__BungieCredentialType BungieCredentialType = "12"
-	14__BungieCredentialType BungieCredentialType = "14"
-	16__BungieCredentialType BungieCredentialType = "16"
-	18__BungieCredentialType BungieCredentialType = "18"
-	20__BungieCredentialType BungieCredentialType = "20"
+	_0__BungieCredentialType BungieCredentialType = 0
+	_1__BungieCredentialType BungieCredentialType = 1
+	_2__BungieCredentialType BungieCredentialType = 2
+	_3__BungieCredentialType BungieCredentialType = 3
+	_4__BungieCredentialType BungieCredentialType = 4
+	_5__BungieCredentialType BungieCredentialType = 5
+	_8__BungieCredentialType BungieCredentialType = 8
+	_9__BungieCredentialType BungieCredentialType = 9
+	_10__BungieCredentialType BungieCredentialType = 10
+	_12__BungieCredentialType BungieCredentialType = 12
+	_14__BungieCredentialType BungieCredentialType = 14
+	_16__BungieCredentialType BungieCredentialType = 16
+	_18__BungieCredentialType BungieCredentialType = 18
+	_20__BungieCredentialType BungieCredentialType = 20
 )

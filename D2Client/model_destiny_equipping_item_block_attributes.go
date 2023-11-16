@@ -13,6 +13,6 @@ type DestinyEquippingItemBlockAttributes int32
 
 // List of Destiny.EquippingItemBlockAttributes
 const (
-	0__DestinyEquippingItemBlockAttributes DestinyEquippingItemBlockAttributes = "0"
-	1__DestinyEquippingItemBlockAttributes DestinyEquippingItemBlockAttributes = "1"
+	_0__DestinyEquippingItemBlockAttributes DestinyEquippingItemBlockAttributes = 0
+	_1__DestinyEquippingItemBlockAttributes DestinyEquippingItemBlockAttributes = 1
 )

@@ -13,8 +13,8 @@ type SocialFriendsFriendRelationshipState int32
 
 // List of Social.Friends.FriendRelationshipState
 const (
-	0__SocialFriendsFriendRelationshipState SocialFriendsFriendRelationshipState = "0"
-	1__SocialFriendsFriendRelationshipState SocialFriendsFriendRelationshipState = "1"
-	2__SocialFriendsFriendRelationshipState SocialFriendsFriendRelationshipState = "2"
-	3__SocialFriendsFriendRelationshipState SocialFriendsFriendRelationshipState = "3"
+	_0__SocialFriendsFriendRelationshipState SocialFriendsFriendRelationshipState = 0
+	_1__SocialFriendsFriendRelationshipState SocialFriendsFriendRelationshipState = 1
+	_2__SocialFriendsFriendRelationshipState SocialFriendsFriendRelationshipState = 2
+	_3__SocialFriendsFriendRelationshipState SocialFriendsFriendRelationshipState = 3
 )

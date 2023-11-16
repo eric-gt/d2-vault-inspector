@@ -13,10 +13,10 @@ type DestinyItemState int32
 
 // List of Destiny.ItemState
 const (
-	0__DestinyItemState DestinyItemState = "0"
-	1__DestinyItemState DestinyItemState = "1"
-	2__DestinyItemState DestinyItemState = "2"
-	4__DestinyItemState DestinyItemState = "4"
-	8__DestinyItemState DestinyItemState = "8"
-	16__DestinyItemState DestinyItemState = "16"
+	_0__DestinyItemState DestinyItemState = 0
+	_1__DestinyItemState DestinyItemState = 1
+	_2__DestinyItemState DestinyItemState = 2
+	_4__DestinyItemState DestinyItemState = 4
+	_8__DestinyItemState DestinyItemState = 8
+	_16__DestinyItemState DestinyItemState = 16
 )

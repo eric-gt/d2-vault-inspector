@@ -13,8 +13,8 @@ type DestinyDestinyStatCategory int32
 
 // List of Destiny.DestinyStatCategory
 const (
-	0__DestinyDestinyStatCategory DestinyDestinyStatCategory = "0"
-	1__DestinyDestinyStatCategory DestinyDestinyStatCategory = "1"
-	2__DestinyDestinyStatCategory DestinyDestinyStatCategory = "2"
-	3__DestinyDestinyStatCategory DestinyDestinyStatCategory = "3"
+	_0__DestinyDestinyStatCategory DestinyDestinyStatCategory = 0
+	_1__DestinyDestinyStatCategory DestinyDestinyStatCategory = 1
+	_2__DestinyDestinyStatCategory DestinyDestinyStatCategory = 2
+	_3__DestinyDestinyStatCategory DestinyDestinyStatCategory = 3
 )

@@ -13,13 +13,13 @@ type DestinyDestinyProgressionScope int32
 
 // List of Destiny.DestinyProgressionScope
 const (
-	0__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = "0"
-	1__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = "1"
-	2__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = "2"
-	3__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = "3"
-	4__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = "4"
-	5__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = "5"
-	6__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = "6"
-	7__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = "7"
-	8__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = "8"
+	_0__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = 0
+	_1__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = 1
+	_2__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = 2
+	_3__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = 3
+	_4__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = 4
+	_5__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = 5
+	_6__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = 6
+	_7__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = 7
+	_8__DestinyDestinyProgressionScope DestinyDestinyProgressionScope = 8
 )

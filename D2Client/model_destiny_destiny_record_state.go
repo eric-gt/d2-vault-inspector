@@ -13,12 +13,12 @@ type DestinyDestinyRecordState int32
 
 // List of Destiny.DestinyRecordState
 const (
-	0__DestinyDestinyRecordState DestinyDestinyRecordState = "0"
-	1__DestinyDestinyRecordState DestinyDestinyRecordState = "1"
-	2__DestinyDestinyRecordState DestinyDestinyRecordState = "2"
-	4__DestinyDestinyRecordState DestinyDestinyRecordState = "4"
-	8__DestinyDestinyRecordState DestinyDestinyRecordState = "8"
-	16__DestinyDestinyRecordState DestinyDestinyRecordState = "16"
-	32__DestinyDestinyRecordState DestinyDestinyRecordState = "32"
-	64__DestinyDestinyRecordState DestinyDestinyRecordState = "64"
+	_0__DestinyDestinyRecordState DestinyDestinyRecordState = 0
+	_1__DestinyDestinyRecordState DestinyDestinyRecordState = 1
+	_2__DestinyDestinyRecordState DestinyDestinyRecordState = 2
+	_4__DestinyDestinyRecordState DestinyDestinyRecordState = 4
+	_8__DestinyDestinyRecordState DestinyDestinyRecordState = 8
+	_16__DestinyDestinyRecordState DestinyDestinyRecordState = 16
+	_32__DestinyDestinyRecordState DestinyDestinyRecordState = 32
+	_64__DestinyDestinyRecordState DestinyDestinyRecordState = 64
 )

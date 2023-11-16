@@ -13,15 +13,15 @@ type DestinyDestinyGameVersions int32
 
 // List of Destiny.DestinyGameVersions
 const (
-	0__DestinyDestinyGameVersions DestinyDestinyGameVersions = "0"
-	1__DestinyDestinyGameVersions DestinyDestinyGameVersions = "1"
-	2__DestinyDestinyGameVersions DestinyDestinyGameVersions = "2"
-	4__DestinyDestinyGameVersions DestinyDestinyGameVersions = "4"
-	8__DestinyDestinyGameVersions DestinyDestinyGameVersions = "8"
-	16__DestinyDestinyGameVersions DestinyDestinyGameVersions = "16"
-	32__DestinyDestinyGameVersions DestinyDestinyGameVersions = "32"
-	64__DestinyDestinyGameVersions DestinyDestinyGameVersions = "64"
-	128__DestinyDestinyGameVersions DestinyDestinyGameVersions = "128"
-	256__DestinyDestinyGameVersions DestinyDestinyGameVersions = "256"
-	512__DestinyDestinyGameVersions DestinyDestinyGameVersions = "512"
+	_0__DestinyDestinyGameVersions DestinyDestinyGameVersions = 0
+	_1__DestinyDestinyGameVersions DestinyDestinyGameVersions = 1
+	_2__DestinyDestinyGameVersions DestinyDestinyGameVersions = 2
+	_4__DestinyDestinyGameVersions DestinyDestinyGameVersions = 4
+	_8__DestinyDestinyGameVersions DestinyDestinyGameVersions = 8
+	_16__DestinyDestinyGameVersions DestinyDestinyGameVersions = 16
+	_32__DestinyDestinyGameVersions DestinyDestinyGameVersions = 32
+	_64__DestinyDestinyGameVersions DestinyDestinyGameVersions = 64
+	_128__DestinyDestinyGameVersions DestinyDestinyGameVersions = 128
+	_256__DestinyDestinyGameVersions DestinyDestinyGameVersions = 256
+	_512__DestinyDestinyGameVersions DestinyDestinyGameVersions = 512
 )

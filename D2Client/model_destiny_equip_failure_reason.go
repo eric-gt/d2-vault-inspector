@@ -13,13 +13,13 @@ type DestinyEquipFailureReason int32
 
 // List of Destiny.EquipFailureReason
 const (
-	0__DestinyEquipFailureReason DestinyEquipFailureReason = "0"
-	1__DestinyEquipFailureReason DestinyEquipFailureReason = "1"
-	2__DestinyEquipFailureReason DestinyEquipFailureReason = "2"
-	4__DestinyEquipFailureReason DestinyEquipFailureReason = "4"
-	8__DestinyEquipFailureReason DestinyEquipFailureReason = "8"
-	16__DestinyEquipFailureReason DestinyEquipFailureReason = "16"
-	32__DestinyEquipFailureReason DestinyEquipFailureReason = "32"
-	64__DestinyEquipFailureReason DestinyEquipFailureReason = "64"
-	128__DestinyEquipFailureReason DestinyEquipFailureReason = "128"
+	_0__DestinyEquipFailureReason DestinyEquipFailureReason = 0
+	_1__DestinyEquipFailureReason DestinyEquipFailureReason = 1
+	_2__DestinyEquipFailureReason DestinyEquipFailureReason = 2
+	_4__DestinyEquipFailureReason DestinyEquipFailureReason = 4
+	_8__DestinyEquipFailureReason DestinyEquipFailureReason = 8
+	_16__DestinyEquipFailureReason DestinyEquipFailureReason = 16
+	_32__DestinyEquipFailureReason DestinyEquipFailureReason = 32
+	_64__DestinyEquipFailureReason DestinyEquipFailureReason = 64
+	_128__DestinyEquipFailureReason DestinyEquipFailureReason = 128
 )

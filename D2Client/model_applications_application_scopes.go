@@ -13,19 +13,19 @@ type ApplicationsApplicationScopes int64
 
 // List of Applications.ApplicationScopes
 const (
-	1__ApplicationsApplicationScopes ApplicationsApplicationScopes = "1"
-	2__ApplicationsApplicationScopes ApplicationsApplicationScopes = "2"
-	4__ApplicationsApplicationScopes ApplicationsApplicationScopes = "4"
-	8__ApplicationsApplicationScopes ApplicationsApplicationScopes = "8"
-	16__ApplicationsApplicationScopes ApplicationsApplicationScopes = "16"
-	32__ApplicationsApplicationScopes ApplicationsApplicationScopes = "32"
-	64__ApplicationsApplicationScopes ApplicationsApplicationScopes = "64"
-	128__ApplicationsApplicationScopes ApplicationsApplicationScopes = "128"
-	256__ApplicationsApplicationScopes ApplicationsApplicationScopes = "256"
-	512__ApplicationsApplicationScopes ApplicationsApplicationScopes = "512"
-	1024__ApplicationsApplicationScopes ApplicationsApplicationScopes = "1024"
-	2048__ApplicationsApplicationScopes ApplicationsApplicationScopes = "2048"
-	4096__ApplicationsApplicationScopes ApplicationsApplicationScopes = "4096"
-	8192__ApplicationsApplicationScopes ApplicationsApplicationScopes = "8192"
-	16384__ApplicationsApplicationScopes ApplicationsApplicationScopes = "16384"
+	_1__ApplicationsApplicationScopes ApplicationsApplicationScopes = 1
+	_2__ApplicationsApplicationScopes ApplicationsApplicationScopes = 2
+	_4__ApplicationsApplicationScopes ApplicationsApplicationScopes = 4
+	_8__ApplicationsApplicationScopes ApplicationsApplicationScopes = 8
+	_16__ApplicationsApplicationScopes ApplicationsApplicationScopes = 16
+	_32__ApplicationsApplicationScopes ApplicationsApplicationScopes = 32
+	_64__ApplicationsApplicationScopes ApplicationsApplicationScopes = 64
+	_128__ApplicationsApplicationScopes ApplicationsApplicationScopes = 128
+	_256__ApplicationsApplicationScopes ApplicationsApplicationScopes = 256
+	_512__ApplicationsApplicationScopes ApplicationsApplicationScopes = 512
+	_1024__ApplicationsApplicationScopes ApplicationsApplicationScopes = 1024
+	_2048__ApplicationsApplicationScopes ApplicationsApplicationScopes = 2048
+	_4096__ApplicationsApplicationScopes ApplicationsApplicationScopes = 4096
+	_8192__ApplicationsApplicationScopes ApplicationsApplicationScopes = 8192
+	_16384__ApplicationsApplicationScopes ApplicationsApplicationScopes = 16384
 )

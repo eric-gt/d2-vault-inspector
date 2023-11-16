@@ -13,7 +13,7 @@ type ForumCommunityContentSortMode int32
 
 // List of Forum.CommunityContentSortMode
 const (
-	0__ForumCommunityContentSortMode ForumCommunityContentSortMode = "0"
-	1__ForumCommunityContentSortMode ForumCommunityContentSortMode = "1"
-	2__ForumCommunityContentSortMode ForumCommunityContentSortMode = "2"
+	_0__ForumCommunityContentSortMode ForumCommunityContentSortMode = 0
+	_1__ForumCommunityContentSortMode ForumCommunityContentSortMode = 1
+	_2__ForumCommunityContentSortMode ForumCommunityContentSortMode = 2
 )

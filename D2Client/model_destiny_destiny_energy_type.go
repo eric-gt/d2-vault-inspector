@@ -13,11 +13,11 @@ type DestinyDestinyEnergyType int32
 
 // List of Destiny.DestinyEnergyType
 const (
-	0__DestinyDestinyEnergyType DestinyDestinyEnergyType = "0"
-	1__DestinyDestinyEnergyType DestinyDestinyEnergyType = "1"
-	2__DestinyDestinyEnergyType DestinyDestinyEnergyType = "2"
-	3__DestinyDestinyEnergyType DestinyDestinyEnergyType = "3"
-	4__DestinyDestinyEnergyType DestinyDestinyEnergyType = "4"
-	5__DestinyDestinyEnergyType DestinyDestinyEnergyType = "5"
-	6__DestinyDestinyEnergyType DestinyDestinyEnergyType = "6"
+	_0__DestinyDestinyEnergyType DestinyDestinyEnergyType = 0
+	_1__DestinyDestinyEnergyType DestinyDestinyEnergyType = 1
+	_2__DestinyDestinyEnergyType DestinyDestinyEnergyType = 2
+	_3__DestinyDestinyEnergyType DestinyDestinyEnergyType = 3
+	_4__DestinyDestinyEnergyType DestinyDestinyEnergyType = 4
+	_5__DestinyDestinyEnergyType DestinyDestinyEnergyType = 5
+	_6__DestinyDestinyEnergyType DestinyDestinyEnergyType = 6
 )

@@ -13,6 +13,6 @@ type SocialFriendsPresenceStatus int32
 
 // List of Social.Friends.PresenceStatus
 const (
-	0__SocialFriendsPresenceStatus SocialFriendsPresenceStatus = "0"
-	1__SocialFriendsPresenceStatus SocialFriendsPresenceStatus = "1"
+	_0__SocialFriendsPresenceStatus SocialFriendsPresenceStatus = 0
+	_1__SocialFriendsPresenceStatus SocialFriendsPresenceStatus = 1
 )

@@ -13,16 +13,16 @@ type IgnoresIgnoreLength int32
 
 // List of Ignores.IgnoreLength
 const (
-	0__IgnoresIgnoreLength IgnoresIgnoreLength = "0"
-	1__IgnoresIgnoreLength IgnoresIgnoreLength = "1"
-	2__IgnoresIgnoreLength IgnoresIgnoreLength = "2"
-	3__IgnoresIgnoreLength IgnoresIgnoreLength = "3"
-	4__IgnoresIgnoreLength IgnoresIgnoreLength = "4"
-	5__IgnoresIgnoreLength IgnoresIgnoreLength = "5"
-	6__IgnoresIgnoreLength IgnoresIgnoreLength = "6"
-	7__IgnoresIgnoreLength IgnoresIgnoreLength = "7"
-	8__IgnoresIgnoreLength IgnoresIgnoreLength = "8"
-	9__IgnoresIgnoreLength IgnoresIgnoreLength = "9"
-	10__IgnoresIgnoreLength IgnoresIgnoreLength = "10"
-	11__IgnoresIgnoreLength IgnoresIgnoreLength = "11"
+	_0__IgnoresIgnoreLength IgnoresIgnoreLength = 0
+	_1__IgnoresIgnoreLength IgnoresIgnoreLength = 1
+	_2__IgnoresIgnoreLength IgnoresIgnoreLength = 2
+	_3__IgnoresIgnoreLength IgnoresIgnoreLength = 3
+	_4__IgnoresIgnoreLength IgnoresIgnoreLength = 4
+	_5__IgnoresIgnoreLength IgnoresIgnoreLength = 5
+	_6__IgnoresIgnoreLength IgnoresIgnoreLength = 6
+	_7__IgnoresIgnoreLength IgnoresIgnoreLength = 7
+	_8__IgnoresIgnoreLength IgnoresIgnoreLength = 8
+	_9__IgnoresIgnoreLength IgnoresIgnoreLength = 9
+	_10__IgnoresIgnoreLength IgnoresIgnoreLength = 10
+	_11__IgnoresIgnoreLength IgnoresIgnoreLength = 11
 )

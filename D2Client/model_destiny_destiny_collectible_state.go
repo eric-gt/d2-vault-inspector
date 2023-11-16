@@ -13,12 +13,12 @@ type DestinyDestinyCollectibleState int32
 
 // List of Destiny.DestinyCollectibleState
 const (
-	0__DestinyDestinyCollectibleState DestinyDestinyCollectibleState = "0"
-	1__DestinyDestinyCollectibleState DestinyDestinyCollectibleState = "1"
-	2__DestinyDestinyCollectibleState DestinyDestinyCollectibleState = "2"
-	4__DestinyDestinyCollectibleState DestinyDestinyCollectibleState = "4"
-	8__DestinyDestinyCollectibleState DestinyDestinyCollectibleState = "8"
-	16__DestinyDestinyCollectibleState DestinyDestinyCollectibleState = "16"
-	32__DestinyDestinyCollectibleState DestinyDestinyCollectibleState = "32"
-	64__DestinyDestinyCollectibleState DestinyDestinyCollectibleState = "64"
+	_0__DestinyDestinyCollectibleState DestinyDestinyCollectibleState = 0
+	_1__DestinyDestinyCollectibleState DestinyDestinyCollectibleState = 1
+	_2__DestinyDestinyCollectibleState DestinyDestinyCollectibleState = 2
+	_4__DestinyDestinyCollectibleState DestinyDestinyCollectibleState = 4
+	_8__DestinyDestinyCollectibleState DestinyDestinyCollectibleState = 8
+	_16__DestinyDestinyCollectibleState DestinyDestinyCollectibleState = 16
+	_32__DestinyDestinyCollectibleState DestinyDestinyCollectibleState = 32
+	_64__DestinyDestinyCollectibleState DestinyDestinyCollectibleState = 64
 )

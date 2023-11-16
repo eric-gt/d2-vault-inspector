@@ -13,7 +13,7 @@ type ForumForumRecruitmentToneLabel int32
 
 // List of Forum.ForumRecruitmentToneLabel
 const (
-	0__ForumForumRecruitmentToneLabel ForumForumRecruitmentToneLabel = "0"
-	1__ForumForumRecruitmentToneLabel ForumForumRecruitmentToneLabel = "1"
-	2__ForumForumRecruitmentToneLabel ForumForumRecruitmentToneLabel = "2"
+	_0__ForumForumRecruitmentToneLabel ForumForumRecruitmentToneLabel = 0
+	_1__ForumForumRecruitmentToneLabel ForumForumRecruitmentToneLabel = 1
+	_2__ForumForumRecruitmentToneLabel ForumForumRecruitmentToneLabel = 2
 )

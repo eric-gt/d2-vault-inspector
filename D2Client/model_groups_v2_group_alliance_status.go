@@ -13,7 +13,7 @@ type GroupsV2GroupAllianceStatus int32
 
 // List of GroupsV2.GroupAllianceStatus
 const (
-	0__GroupsV2GroupAllianceStatus GroupsV2GroupAllianceStatus = "0"
-	1__GroupsV2GroupAllianceStatus GroupsV2GroupAllianceStatus = "1"
-	2__GroupsV2GroupAllianceStatus GroupsV2GroupAllianceStatus = "2"
+	_0__GroupsV2GroupAllianceStatus GroupsV2GroupAllianceStatus = 0
+	_1__GroupsV2GroupAllianceStatus GroupsV2GroupAllianceStatus = 1
+	_2__GroupsV2GroupAllianceStatus GroupsV2GroupAllianceStatus = 2
 )

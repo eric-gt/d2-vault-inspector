@@ -13,9 +13,9 @@ type DestinyDestinyPartyMemberStates int32
 
 // List of Destiny.DestinyPartyMemberStates
 const (
-	0__DestinyDestinyPartyMemberStates DestinyDestinyPartyMemberStates = "0"
-	1__DestinyDestinyPartyMemberStates DestinyDestinyPartyMemberStates = "1"
-	2__DestinyDestinyPartyMemberStates DestinyDestinyPartyMemberStates = "2"
-	4__DestinyDestinyPartyMemberStates DestinyDestinyPartyMemberStates = "4"
-	8__DestinyDestinyPartyMemberStates DestinyDestinyPartyMemberStates = "8"
+	_0__DestinyDestinyPartyMemberStates DestinyDestinyPartyMemberStates = 0
+	_1__DestinyDestinyPartyMemberStates DestinyDestinyPartyMemberStates = 1
+	_2__DestinyDestinyPartyMemberStates DestinyDestinyPartyMemberStates = 2
+	_4__DestinyDestinyPartyMemberStates DestinyDestinyPartyMemberStates = 4
+	_8__DestinyDestinyPartyMemberStates DestinyDestinyPartyMemberStates = 8
 )

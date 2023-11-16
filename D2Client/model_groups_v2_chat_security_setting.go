@@ -13,6 +13,6 @@ type GroupsV2ChatSecuritySetting int32
 
 // List of GroupsV2.ChatSecuritySetting
 const (
-	0__GroupsV2ChatSecuritySetting GroupsV2ChatSecuritySetting = "0"
-	1__GroupsV2ChatSecuritySetting GroupsV2ChatSecuritySetting = "1"
+	_0__GroupsV2ChatSecuritySetting GroupsV2ChatSecuritySetting = 0
+	_1__GroupsV2ChatSecuritySetting GroupsV2ChatSecuritySetting = 1
 )

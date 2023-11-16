@@ -13,12 +13,12 @@ type DestinyDamageType int32
 
 // List of Destiny.DamageType
 const (
-	0__DestinyDamageType DestinyDamageType = "0"
-	1__DestinyDamageType DestinyDamageType = "1"
-	2__DestinyDamageType DestinyDamageType = "2"
-	3__DestinyDamageType DestinyDamageType = "3"
-	4__DestinyDamageType DestinyDamageType = "4"
-	5__DestinyDamageType DestinyDamageType = "5"
-	6__DestinyDamageType DestinyDamageType = "6"
-	7__DestinyDamageType DestinyDamageType = "7"
+	_0__DestinyDamageType DestinyDamageType = 0
+	_1__DestinyDamageType DestinyDamageType = 1
+	_2__DestinyDamageType DestinyDamageType = 2
+	_3__DestinyDamageType DestinyDamageType = 3
+	_4__DestinyDamageType DestinyDamageType = 4
+	_5__DestinyDamageType DestinyDamageType = 5
+	_6__DestinyDamageType DestinyDamageType = 6
+	_7__DestinyDamageType DestinyDamageType = 7
 )

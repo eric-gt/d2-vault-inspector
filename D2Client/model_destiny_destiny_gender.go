@@ -13,7 +13,7 @@ type DestinyDestinyGender int32
 
 // List of Destiny.DestinyGender
 const (
-	0__DestinyDestinyGender DestinyDestinyGender = "0"
-	1__DestinyDestinyGender DestinyDestinyGender = "1"
-	2__DestinyDestinyGender DestinyDestinyGender = "2"
+	_0__DestinyDestinyGender DestinyDestinyGender = 0
+	_1__DestinyDestinyGender DestinyDestinyGender = 1
+	_2__DestinyDestinyGender DestinyDestinyGender = 2
 )

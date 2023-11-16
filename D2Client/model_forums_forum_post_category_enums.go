@@ -13,16 +13,16 @@ type ForumsForumPostCategoryEnums int32
 
 // List of Forums.ForumPostCategoryEnums
 const (
-	0__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = "0"
-	1__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = "1"
-	2__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = "2"
-	4__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = "4"
-	8__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = "8"
-	16__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = "16"
-	32__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = "32"
-	64__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = "64"
-	128__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = "128"
-	256__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = "256"
-	512__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = "512"
-	1024__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = "1024"
+	_0__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = 0
+	_1__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = 1
+	_2__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = 2
+	_4__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = 4
+	_8__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = 8
+	_16__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = 16
+	_32__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = 32
+	_64__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = 64
+	_128__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = 128
+	_256__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = 256
+	_512__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = 512
+	_1024__ForumsForumPostCategoryEnums ForumsForumPostCategoryEnums = 1024
 )

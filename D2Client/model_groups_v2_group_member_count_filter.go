@@ -13,8 +13,8 @@ type GroupsV2GroupMemberCountFilter int32
 
 // List of GroupsV2.GroupMemberCountFilter
 const (
-	0__GroupsV2GroupMemberCountFilter GroupsV2GroupMemberCountFilter = "0"
-	1__GroupsV2GroupMemberCountFilter GroupsV2GroupMemberCountFilter = "1"
-	2__GroupsV2GroupMemberCountFilter GroupsV2GroupMemberCountFilter = "2"
-	3__GroupsV2GroupMemberCountFilter GroupsV2GroupMemberCountFilter = "3"
+	_0__GroupsV2GroupMemberCountFilter GroupsV2GroupMemberCountFilter = 0
+	_1__GroupsV2GroupMemberCountFilter GroupsV2GroupMemberCountFilter = 1
+	_2__GroupsV2GroupMemberCountFilter GroupsV2GroupMemberCountFilter = 2
+	_3__GroupsV2GroupMemberCountFilter GroupsV2GroupMemberCountFilter = 3
 )

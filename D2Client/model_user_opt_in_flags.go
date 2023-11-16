@@ -13,14 +13,14 @@ type UserOptInFlags int64
 
 // List of User.OptInFlags
 const (
-	0__UserOptInFlags UserOptInFlags = "0"
-	1__UserOptInFlags UserOptInFlags = "1"
-	2__UserOptInFlags UserOptInFlags = "2"
-	4__UserOptInFlags UserOptInFlags = "4"
-	8__UserOptInFlags UserOptInFlags = "8"
-	16__UserOptInFlags UserOptInFlags = "16"
-	32__UserOptInFlags UserOptInFlags = "32"
-	64__UserOptInFlags UserOptInFlags = "64"
-	128__UserOptInFlags UserOptInFlags = "128"
-	256__UserOptInFlags UserOptInFlags = "256"
+	_0__UserOptInFlags UserOptInFlags = 0
+	_1__UserOptInFlags UserOptInFlags = 1
+	_2__UserOptInFlags UserOptInFlags = 2
+	_4__UserOptInFlags UserOptInFlags = 4
+	_8__UserOptInFlags UserOptInFlags = 8
+	_16__UserOptInFlags UserOptInFlags = 16
+	_32__UserOptInFlags UserOptInFlags = 32
+	_64__UserOptInFlags UserOptInFlags = 64
+	_128__UserOptInFlags UserOptInFlags = 128
+	_256__UserOptInFlags UserOptInFlags = 256
 )

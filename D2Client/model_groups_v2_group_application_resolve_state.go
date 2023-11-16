@@ -13,8 +13,8 @@ type GroupsV2GroupApplicationResolveState int32
 
 // List of GroupsV2.GroupApplicationResolveState
 const (
-	0__GroupsV2GroupApplicationResolveState GroupsV2GroupApplicationResolveState = "0"
-	1__GroupsV2GroupApplicationResolveState GroupsV2GroupApplicationResolveState = "1"
-	2__GroupsV2GroupApplicationResolveState GroupsV2GroupApplicationResolveState = "2"
-	3__GroupsV2GroupApplicationResolveState GroupsV2GroupApplicationResolveState = "3"
+	_0__GroupsV2GroupApplicationResolveState GroupsV2GroupApplicationResolveState = 0
+	_1__GroupsV2GroupApplicationResolveState GroupsV2GroupApplicationResolveState = 1
+	_2__GroupsV2GroupApplicationResolveState GroupsV2GroupApplicationResolveState = 2
+	_3__GroupsV2GroupApplicationResolveState GroupsV2GroupApplicationResolveState = 3
 )

@@ -13,9 +13,9 @@ type DestinyItemLocation int32
 
 // List of Destiny.ItemLocation
 const (
-	0__DestinyItemLocation DestinyItemLocation = "0"
-	1__DestinyItemLocation DestinyItemLocation = "1"
-	2__DestinyItemLocation DestinyItemLocation = "2"
-	3__DestinyItemLocation DestinyItemLocation = "3"
-	4__DestinyItemLocation DestinyItemLocation = "4"
+	_0__DestinyItemLocation DestinyItemLocation = 0
+	_1__DestinyItemLocation DestinyItemLocation = 1
+	_2__DestinyItemLocation DestinyItemLocation = 2
+	_3__DestinyItemLocation DestinyItemLocation = 3
+	_4__DestinyItemLocation DestinyItemLocation = 4
 )

@@ -13,7 +13,7 @@ type DestinySocketTypeActionType int32
 
 // List of Destiny.SocketTypeActionType
 const (
-	0__DestinySocketTypeActionType DestinySocketTypeActionType = "0"
-	1__DestinySocketTypeActionType DestinySocketTypeActionType = "1"
-	2__DestinySocketTypeActionType DestinySocketTypeActionType = "2"
+	_0__DestinySocketTypeActionType DestinySocketTypeActionType = 0
+	_1__DestinySocketTypeActionType DestinySocketTypeActionType = 1
+	_2__DestinySocketTypeActionType DestinySocketTypeActionType = 2
 )

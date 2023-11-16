@@ -13,8 +13,8 @@ type DestinyTransferStatuses int32
 
 // List of Destiny.TransferStatuses
 const (
-	0__DestinyTransferStatuses DestinyTransferStatuses = "0"
-	1__DestinyTransferStatuses DestinyTransferStatuses = "1"
-	2__DestinyTransferStatuses DestinyTransferStatuses = "2"
-	4__DestinyTransferStatuses DestinyTransferStatuses = "4"
+	_0__DestinyTransferStatuses DestinyTransferStatuses = 0
+	_1__DestinyTransferStatuses DestinyTransferStatuses = 1
+	_2__DestinyTransferStatuses DestinyTransferStatuses = 2
+	_4__DestinyTransferStatuses DestinyTransferStatuses = 4
 )

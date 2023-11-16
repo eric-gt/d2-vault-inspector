@@ -13,13 +13,13 @@ type ForumForumTopicsCategoryFiltersEnum int32
 
 // List of Forum.ForumTopicsCategoryFiltersEnum
 const (
-	0__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = "0"
-	1__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = "1"
-	2__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = "2"
-	4__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = "4"
-	8__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = "8"
-	16__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = "16"
-	32__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = "32"
-	64__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = "64"
-	128__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = "128"
+	_0__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = 0
+	_1__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = 1
+	_2__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = 2
+	_4__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = 4
+	_8__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = 8
+	_16__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = 16
+	_32__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = 32
+	_64__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = 64
+	_128__ForumForumTopicsCategoryFiltersEnum ForumForumTopicsCategoryFiltersEnum = 128
 )

@@ -13,9 +13,9 @@ type DestinyDestinyGraphNodeState int32
 
 // List of Destiny.DestinyGraphNodeState
 const (
-	0__DestinyDestinyGraphNodeState DestinyDestinyGraphNodeState = "0"
-	1__DestinyDestinyGraphNodeState DestinyDestinyGraphNodeState = "1"
-	2__DestinyDestinyGraphNodeState DestinyDestinyGraphNodeState = "2"
-	3__DestinyDestinyGraphNodeState DestinyDestinyGraphNodeState = "3"
-	4__DestinyDestinyGraphNodeState DestinyDestinyGraphNodeState = "4"
+	_0__DestinyDestinyGraphNodeState DestinyDestinyGraphNodeState = 0
+	_1__DestinyDestinyGraphNodeState DestinyDestinyGraphNodeState = 1
+	_2__DestinyDestinyGraphNodeState DestinyDestinyGraphNodeState = 2
+	_3__DestinyDestinyGraphNodeState DestinyDestinyGraphNodeState = 3
+	_4__DestinyDestinyGraphNodeState DestinyDestinyGraphNodeState = 4
 )

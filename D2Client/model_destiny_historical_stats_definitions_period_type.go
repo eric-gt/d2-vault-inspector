@@ -13,8 +13,8 @@ type DestinyHistoricalStatsDefinitionsPeriodType int32
 
 // List of Destiny.HistoricalStats.Definitions.PeriodType
 const (
-	0__DestinyHistoricalStatsDefinitionsPeriodType DestinyHistoricalStatsDefinitionsPeriodType = "0"
-	1__DestinyHistoricalStatsDefinitionsPeriodType DestinyHistoricalStatsDefinitionsPeriodType = "1"
-	2__DestinyHistoricalStatsDefinitionsPeriodType DestinyHistoricalStatsDefinitionsPeriodType = "2"
-	3__DestinyHistoricalStatsDefinitionsPeriodType DestinyHistoricalStatsDefinitionsPeriodType = "3"
+	_0__DestinyHistoricalStatsDefinitionsPeriodType DestinyHistoricalStatsDefinitionsPeriodType = 0
+	_1__DestinyHistoricalStatsDefinitionsPeriodType DestinyHistoricalStatsDefinitionsPeriodType = 1
+	_2__DestinyHistoricalStatsDefinitionsPeriodType DestinyHistoricalStatsDefinitionsPeriodType = 2
+	_3__DestinyHistoricalStatsDefinitionsPeriodType DestinyHistoricalStatsDefinitionsPeriodType = 3
 )

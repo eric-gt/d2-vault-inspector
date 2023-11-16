@@ -13,9 +13,9 @@ type DestinyDestinyRecordValueStyle int32
 
 // List of Destiny.DestinyRecordValueStyle
 const (
-	0__DestinyDestinyRecordValueStyle DestinyDestinyRecordValueStyle = "0"
-	1__DestinyDestinyRecordValueStyle DestinyDestinyRecordValueStyle = "1"
-	2__DestinyDestinyRecordValueStyle DestinyDestinyRecordValueStyle = "2"
-	3__DestinyDestinyRecordValueStyle DestinyDestinyRecordValueStyle = "3"
-	4__DestinyDestinyRecordValueStyle DestinyDestinyRecordValueStyle = "4"
+	_0__DestinyDestinyRecordValueStyle DestinyDestinyRecordValueStyle = 0
+	_1__DestinyDestinyRecordValueStyle DestinyDestinyRecordValueStyle = 1
+	_2__DestinyDestinyRecordValueStyle DestinyDestinyRecordValueStyle = 2
+	_3__DestinyDestinyRecordValueStyle DestinyDestinyRecordValueStyle = 3
+	_4__DestinyDestinyRecordValueStyle DestinyDestinyRecordValueStyle = 4
 )

@@ -13,7 +13,7 @@ type DestinyDestinyPresentationNodeState int32
 
 // List of Destiny.DestinyPresentationNodeState
 const (
-	0__DestinyDestinyPresentationNodeState DestinyDestinyPresentationNodeState = "0"
-	1__DestinyDestinyPresentationNodeState DestinyDestinyPresentationNodeState = "1"
-	2__DestinyDestinyPresentationNodeState DestinyDestinyPresentationNodeState = "2"
+	_0__DestinyDestinyPresentationNodeState DestinyDestinyPresentationNodeState = 0
+	_1__DestinyDestinyPresentationNodeState DestinyDestinyPresentationNodeState = 1
+	_2__DestinyDestinyPresentationNodeState DestinyDestinyPresentationNodeState = 2
 )

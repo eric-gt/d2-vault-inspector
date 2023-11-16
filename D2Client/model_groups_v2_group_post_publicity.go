@@ -13,7 +13,7 @@ type GroupsV2GroupPostPublicity int32
 
 // List of GroupsV2.GroupPostPublicity
 const (
-	0__GroupsV2GroupPostPublicity GroupsV2GroupPostPublicity = "0"
-	1__GroupsV2GroupPostPublicity GroupsV2GroupPostPublicity = "1"
-	2__GroupsV2GroupPostPublicity GroupsV2GroupPostPublicity = "2"
+	_0__GroupsV2GroupPostPublicity GroupsV2GroupPostPublicity = 0
+	_1__GroupsV2GroupPostPublicity GroupsV2GroupPostPublicity = 1
+	_2__GroupsV2GroupPostPublicity GroupsV2GroupPostPublicity = 2
 )

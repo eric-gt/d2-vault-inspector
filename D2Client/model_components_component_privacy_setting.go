@@ -13,7 +13,7 @@ type ComponentsComponentPrivacySetting int32
 
 // List of Components.ComponentPrivacySetting
 const (
-	0__ComponentsComponentPrivacySetting ComponentsComponentPrivacySetting = "0"
-	1__ComponentsComponentPrivacySetting ComponentsComponentPrivacySetting = "1"
-	2__ComponentsComponentPrivacySetting ComponentsComponentPrivacySetting = "2"
+	_0__ComponentsComponentPrivacySetting ComponentsComponentPrivacySetting = 0
+	_1__ComponentsComponentPrivacySetting ComponentsComponentPrivacySetting = 1
+	_2__ComponentsComponentPrivacySetting ComponentsComponentPrivacySetting = 2
 )

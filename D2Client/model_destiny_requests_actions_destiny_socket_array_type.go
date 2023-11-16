@@ -13,6 +13,6 @@ type DestinyRequestsActionsDestinySocketArrayType int32
 
 // List of Destiny.Requests.Actions.DestinySocketArrayType
 const (
-	0__DestinyRequestsActionsDestinySocketArrayType DestinyRequestsActionsDestinySocketArrayType = "0"
-	1__DestinyRequestsActionsDestinySocketArrayType DestinyRequestsActionsDestinySocketArrayType = "1"
+	_0__DestinyRequestsActionsDestinySocketArrayType DestinyRequestsActionsDestinySocketArrayType = 0
+	_1__DestinyRequestsActionsDestinySocketArrayType DestinyRequestsActionsDestinySocketArrayType = 1
 )

@@ -13,7 +13,7 @@ type SocialFriendsPresenceOnlineStateFlags int32
 
 // List of Social.Friends.PresenceOnlineStateFlags
 const (
-	0__SocialFriendsPresenceOnlineStateFlags SocialFriendsPresenceOnlineStateFlags = "0"
-	1__SocialFriendsPresenceOnlineStateFlags SocialFriendsPresenceOnlineStateFlags = "1"
-	2__SocialFriendsPresenceOnlineStateFlags SocialFriendsPresenceOnlineStateFlags = "2"
+	_0__SocialFriendsPresenceOnlineStateFlags SocialFriendsPresenceOnlineStateFlags = 0
+	_1__SocialFriendsPresenceOnlineStateFlags SocialFriendsPresenceOnlineStateFlags = 1
+	_2__SocialFriendsPresenceOnlineStateFlags SocialFriendsPresenceOnlineStateFlags = 2
 )

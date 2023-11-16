@@ -13,7 +13,7 @@ type GroupsV2GroupPotentialMemberStatus int32
 
 // List of GroupsV2.GroupPotentialMemberStatus
 const (
-	0__GroupsV2GroupPotentialMemberStatus GroupsV2GroupPotentialMemberStatus = "0"
-	1__GroupsV2GroupPotentialMemberStatus GroupsV2GroupPotentialMemberStatus = "1"
-	2__GroupsV2GroupPotentialMemberStatus GroupsV2GroupPotentialMemberStatus = "2"
+	_0__GroupsV2GroupPotentialMemberStatus GroupsV2GroupPotentialMemberStatus = 0
+	_1__GroupsV2GroupPotentialMemberStatus GroupsV2GroupPotentialMemberStatus = 1
+	_2__GroupsV2GroupPotentialMemberStatus GroupsV2GroupPotentialMemberStatus = 2
 )

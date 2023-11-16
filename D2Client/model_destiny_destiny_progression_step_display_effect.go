@@ -13,7 +13,7 @@ type DestinyDestinyProgressionStepDisplayEffect int32
 
 // List of Destiny.DestinyProgressionStepDisplayEffect
 const (
-	0__DestinyDestinyProgressionStepDisplayEffect DestinyDestinyProgressionStepDisplayEffect = "0"
-	1__DestinyDestinyProgressionStepDisplayEffect DestinyDestinyProgressionStepDisplayEffect = "1"
-	2__DestinyDestinyProgressionStepDisplayEffect DestinyDestinyProgressionStepDisplayEffect = "2"
+	_0__DestinyDestinyProgressionStepDisplayEffect DestinyDestinyProgressionStepDisplayEffect = 0
+	_1__DestinyDestinyProgressionStepDisplayEffect DestinyDestinyProgressionStepDisplayEffect = 1
+	_2__DestinyDestinyProgressionStepDisplayEffect DestinyDestinyProgressionStepDisplayEffect = 2
 )

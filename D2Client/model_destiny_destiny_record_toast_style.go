@@ -13,14 +13,14 @@ type DestinyDestinyRecordToastStyle int32
 
 // List of Destiny.DestinyRecordToastStyle
 const (
-	0__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = "0"
-	1__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = "1"
-	2__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = "2"
-	3__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = "3"
-	4__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = "4"
-	5__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = "5"
-	6__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = "6"
-	7__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = "7"
-	8__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = "8"
-	9__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = "9"
+	_0__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = 0
+	_1__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = 1
+	_2__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = 2
+	_3__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = 3
+	_4__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = 4
+	_5__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = 5
+	_6__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = 6
+	_7__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = 7
+	_8__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = 8
+	_9__DestinyDestinyRecordToastStyle DestinyDestinyRecordToastStyle = 9
 )

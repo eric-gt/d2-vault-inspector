@@ -13,7 +13,7 @@ type DestinyAdvancedAwaUserSelection int32
 
 // List of Destiny.Advanced.AwaUserSelection
 const (
-	0__DestinyAdvancedAwaUserSelection DestinyAdvancedAwaUserSelection = "0"
-	1__DestinyAdvancedAwaUserSelection DestinyAdvancedAwaUserSelection = "1"
-	2__DestinyAdvancedAwaUserSelection DestinyAdvancedAwaUserSelection = "2"
+	_0__DestinyAdvancedAwaUserSelection DestinyAdvancedAwaUserSelection = 0
+	_1__DestinyAdvancedAwaUserSelection DestinyAdvancedAwaUserSelection = 1
+	_2__DestinyAdvancedAwaUserSelection DestinyAdvancedAwaUserSelection = 2
 )

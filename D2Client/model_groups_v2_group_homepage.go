@@ -13,7 +13,7 @@ type GroupsV2GroupHomepage int32
 
 // List of GroupsV2.GroupHomepage
 const (
-	0__GroupsV2GroupHomepage GroupsV2GroupHomepage = "0"
-	1__GroupsV2GroupHomepage GroupsV2GroupHomepage = "1"
-	2__GroupsV2GroupHomepage GroupsV2GroupHomepage = "2"
+	_0__GroupsV2GroupHomepage GroupsV2GroupHomepage = 0
+	_1__GroupsV2GroupHomepage GroupsV2GroupHomepage = 1
+	_2__GroupsV2GroupHomepage GroupsV2GroupHomepage = 2
 )

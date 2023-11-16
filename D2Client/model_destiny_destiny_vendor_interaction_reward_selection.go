@@ -13,7 +13,7 @@ type DestinyDestinyVendorInteractionRewardSelection int32
 
 // List of Destiny.DestinyVendorInteractionRewardSelection
 const (
-	0__DestinyDestinyVendorInteractionRewardSelection DestinyDestinyVendorInteractionRewardSelection = "0"
-	1__DestinyDestinyVendorInteractionRewardSelection DestinyDestinyVendorInteractionRewardSelection = "1"
-	2__DestinyDestinyVendorInteractionRewardSelection DestinyDestinyVendorInteractionRewardSelection = "2"
+	_0__DestinyDestinyVendorInteractionRewardSelection DestinyDestinyVendorInteractionRewardSelection = 0
+	_1__DestinyDestinyVendorInteractionRewardSelection DestinyDestinyVendorInteractionRewardSelection = 1
+	_2__DestinyDestinyVendorInteractionRewardSelection DestinyDestinyVendorInteractionRewardSelection = 2
 )

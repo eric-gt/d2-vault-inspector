@@ -13,12 +13,12 @@ type DestinyDestinyActivityDifficultyTier int32
 
 // List of Destiny.DestinyActivityDifficultyTier
 const (
-	0__DestinyDestinyActivityDifficultyTier DestinyDestinyActivityDifficultyTier = "0"
-	1__DestinyDestinyActivityDifficultyTier DestinyDestinyActivityDifficultyTier = "1"
-	2__DestinyDestinyActivityDifficultyTier DestinyDestinyActivityDifficultyTier = "2"
-	3__DestinyDestinyActivityDifficultyTier DestinyDestinyActivityDifficultyTier = "3"
-	4__DestinyDestinyActivityDifficultyTier DestinyDestinyActivityDifficultyTier = "4"
-	5__DestinyDestinyActivityDifficultyTier DestinyDestinyActivityDifficultyTier = "5"
-	6__DestinyDestinyActivityDifficultyTier DestinyDestinyActivityDifficultyTier = "6"
-	7__DestinyDestinyActivityDifficultyTier DestinyDestinyActivityDifficultyTier = "7"
+	_0__DestinyDestinyActivityDifficultyTier DestinyDestinyActivityDifficultyTier = 0
+	_1__DestinyDestinyActivityDifficultyTier DestinyDestinyActivityDifficultyTier = 1
+	_2__DestinyDestinyActivityDifficultyTier DestinyDestinyActivityDifficultyTier = 2
+	_3__DestinyDestinyActivityDifficultyTier DestinyDestinyActivityDifficultyTier = 3
+	_4__DestinyDestinyActivityDifficultyTier DestinyDestinyActivityDifficultyTier = 4
+	_5__DestinyDestinyActivityDifficultyTier DestinyDestinyActivityDifficultyTier = 5
+	_6__DestinyDestinyActivityDifficultyTier DestinyDestinyActivityDifficultyTier = 6
+	_7__DestinyDestinyActivityDifficultyTier DestinyDestinyActivityDifficultyTier = 7
 )

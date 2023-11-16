@@ -13,9 +13,9 @@ type DestinyActivityGraphNodeHighlightType int32
 
 // List of Destiny.ActivityGraphNodeHighlightType
 const (
-	0__DestinyActivityGraphNodeHighlightType DestinyActivityGraphNodeHighlightType = "0"
-	1__DestinyActivityGraphNodeHighlightType DestinyActivityGraphNodeHighlightType = "1"
-	2__DestinyActivityGraphNodeHighlightType DestinyActivityGraphNodeHighlightType = "2"
-	3__DestinyActivityGraphNodeHighlightType DestinyActivityGraphNodeHighlightType = "3"
-	4__DestinyActivityGraphNodeHighlightType DestinyActivityGraphNodeHighlightType = "4"
+	_0__DestinyActivityGraphNodeHighlightType DestinyActivityGraphNodeHighlightType = 0
+	_1__DestinyActivityGraphNodeHighlightType DestinyActivityGraphNodeHighlightType = 1
+	_2__DestinyActivityGraphNodeHighlightType DestinyActivityGraphNodeHighlightType = 2
+	_3__DestinyActivityGraphNodeHighlightType DestinyActivityGraphNodeHighlightType = 3
+	_4__DestinyActivityGraphNodeHighlightType DestinyActivityGraphNodeHighlightType = 4
 )

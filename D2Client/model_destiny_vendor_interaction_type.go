@@ -13,15 +13,15 @@ type DestinyVendorInteractionType int32
 
 // List of Destiny.VendorInteractionType
 const (
-	0__DestinyVendorInteractionType DestinyVendorInteractionType = "0"
-	1__DestinyVendorInteractionType DestinyVendorInteractionType = "1"
-	2__DestinyVendorInteractionType DestinyVendorInteractionType = "2"
-	3__DestinyVendorInteractionType DestinyVendorInteractionType = "3"
-	4__DestinyVendorInteractionType DestinyVendorInteractionType = "4"
-	5__DestinyVendorInteractionType DestinyVendorInteractionType = "5"
-	6__DestinyVendorInteractionType DestinyVendorInteractionType = "6"
-	7__DestinyVendorInteractionType DestinyVendorInteractionType = "7"
-	8__DestinyVendorInteractionType DestinyVendorInteractionType = "8"
-	9__DestinyVendorInteractionType DestinyVendorInteractionType = "9"
-	10__DestinyVendorInteractionType DestinyVendorInteractionType = "10"
+	_0__DestinyVendorInteractionType DestinyVendorInteractionType = 0
+	_1__DestinyVendorInteractionType DestinyVendorInteractionType = 1
+	_2__DestinyVendorInteractionType DestinyVendorInteractionType = 2
+	_3__DestinyVendorInteractionType DestinyVendorInteractionType = 3
+	_4__DestinyVendorInteractionType DestinyVendorInteractionType = 4
+	_5__DestinyVendorInteractionType DestinyVendorInteractionType = 5
+	_6__DestinyVendorInteractionType DestinyVendorInteractionType = 6
+	_7__DestinyVendorInteractionType DestinyVendorInteractionType = 7
+	_8__DestinyVendorInteractionType DestinyVendorInteractionType = 8
+	_9__DestinyVendorInteractionType DestinyVendorInteractionType = 9
+	_10__DestinyVendorInteractionType DestinyVendorInteractionType = 10
 )

@@ -13,7 +13,7 @@ type ApplicationsDeveloperRole int32
 
 // List of Applications.DeveloperRole
 const (
-	0__ApplicationsDeveloperRole ApplicationsDeveloperRole = "0"
-	1__ApplicationsDeveloperRole ApplicationsDeveloperRole = "1"
-	2__ApplicationsDeveloperRole ApplicationsDeveloperRole = "2"
+	_0__ApplicationsDeveloperRole ApplicationsDeveloperRole = 0
+	_1__ApplicationsDeveloperRole ApplicationsDeveloperRole = 1
+	_2__ApplicationsDeveloperRole ApplicationsDeveloperRole = 2
 )

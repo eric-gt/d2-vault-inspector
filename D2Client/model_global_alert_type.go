@@ -13,6 +13,6 @@ type GlobalAlertType int32
 
 // List of GlobalAlertType
 const (
-	0__GlobalAlertType GlobalAlertType = "0"
-	1__GlobalAlertType GlobalAlertType = "1"
+	_0__GlobalAlertType GlobalAlertType = 0
+	_1__GlobalAlertType GlobalAlertType = 1
 )

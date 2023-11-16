@@ -13,6 +13,6 @@ type DestinyAdvancedAwaType int32
 
 // List of Destiny.Advanced.AwaType
 const (
-	0__DestinyAdvancedAwaType DestinyAdvancedAwaType = "0"
-	1__DestinyAdvancedAwaType DestinyAdvancedAwaType = "1"
+	_0__DestinyAdvancedAwaType DestinyAdvancedAwaType = 0
+	_1__DestinyAdvancedAwaType DestinyAdvancedAwaType = 1
 )

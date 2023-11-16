@@ -13,9 +13,9 @@ type DestinyDestinyProgressionRewardItemState int32
 
 // List of Destiny.DestinyProgressionRewardItemState
 const (
-	0__DestinyDestinyProgressionRewardItemState DestinyDestinyProgressionRewardItemState = "0"
-	1__DestinyDestinyProgressionRewardItemState DestinyDestinyProgressionRewardItemState = "1"
-	2__DestinyDestinyProgressionRewardItemState DestinyDestinyProgressionRewardItemState = "2"
-	4__DestinyDestinyProgressionRewardItemState DestinyDestinyProgressionRewardItemState = "4"
-	8__DestinyDestinyProgressionRewardItemState DestinyDestinyProgressionRewardItemState = "8"
+	_0__DestinyDestinyProgressionRewardItemState DestinyDestinyProgressionRewardItemState = 0
+	_1__DestinyDestinyProgressionRewardItemState DestinyDestinyProgressionRewardItemState = 1
+	_2__DestinyDestinyProgressionRewardItemState DestinyDestinyProgressionRewardItemState = 2
+	_4__DestinyDestinyProgressionRewardItemState DestinyDestinyProgressionRewardItemState = 4
+	_8__DestinyDestinyProgressionRewardItemState DestinyDestinyProgressionRewardItemState = 8
 )

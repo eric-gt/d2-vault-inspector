@@ -13,7 +13,7 @@ type GroupsV2GroupsForMemberFilter int32
 
 // List of GroupsV2.GroupsForMemberFilter
 const (
-	0__GroupsV2GroupsForMemberFilter GroupsV2GroupsForMemberFilter = "0"
-	1__GroupsV2GroupsForMemberFilter GroupsV2GroupsForMemberFilter = "1"
-	2__GroupsV2GroupsForMemberFilter GroupsV2GroupsForMemberFilter = "2"
+	_0__GroupsV2GroupsForMemberFilter GroupsV2GroupsForMemberFilter = 0
+	_1__GroupsV2GroupsForMemberFilter GroupsV2GroupsForMemberFilter = 1
+	_2__GroupsV2GroupsForMemberFilter GroupsV2GroupsForMemberFilter = 2
 )

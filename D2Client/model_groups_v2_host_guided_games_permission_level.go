@@ -13,7 +13,7 @@ type GroupsV2HostGuidedGamesPermissionLevel int32
 
 // List of GroupsV2.HostGuidedGamesPermissionLevel
 const (
-	0__GroupsV2HostGuidedGamesPermissionLevel GroupsV2HostGuidedGamesPermissionLevel = "0"
-	1__GroupsV2HostGuidedGamesPermissionLevel GroupsV2HostGuidedGamesPermissionLevel = "1"
-	2__GroupsV2HostGuidedGamesPermissionLevel GroupsV2HostGuidedGamesPermissionLevel = "2"
+	_0__GroupsV2HostGuidedGamesPermissionLevel GroupsV2HostGuidedGamesPermissionLevel = 0
+	_1__GroupsV2HostGuidedGamesPermissionLevel GroupsV2HostGuidedGamesPermissionLevel = 1
+	_2__GroupsV2HostGuidedGamesPermissionLevel GroupsV2HostGuidedGamesPermissionLevel = 2
 )

@@ -13,21 +13,21 @@ type DestinyDestinyActivityNavPointType int32
 
 // List of Destiny.DestinyActivityNavPointType
 const (
-	0__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = "0"
-	1__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = "1"
-	2__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = "2"
-	3__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = "3"
-	4__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = "4"
-	5__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = "5"
-	6__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = "6"
-	7__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = "7"
-	8__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = "8"
-	9__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = "9"
-	10__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = "10"
-	11__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = "11"
-	12__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = "12"
-	13__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = "13"
-	14__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = "14"
-	15__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = "15"
-	16__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = "16"
+	_0__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = 0
+	_1__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = 1
+	_2__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = 2
+	_3__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = 3
+	_4__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = 4
+	_5__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = 5
+	_6__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = 6
+	_7__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = 7
+	_8__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = 8
+	_9__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = 9
+	_10__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = 10
+	_11__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = 11
+	_12__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = 12
+	_13__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = 13
+	_14__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = 14
+	_15__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = 15
+	_16__DestinyDestinyActivityNavPointType DestinyDestinyActivityNavPointType = 16
 )

@@ -13,8 +13,8 @@ type GlobalAlertLevel int32
 
 // List of GlobalAlertLevel
 const (
-	0__GlobalAlertLevel GlobalAlertLevel = "0"
-	1__GlobalAlertLevel GlobalAlertLevel = "1"
-	2__GlobalAlertLevel GlobalAlertLevel = "2"
-	3__GlobalAlertLevel GlobalAlertLevel = "3"
+	_0__GlobalAlertLevel GlobalAlertLevel = 0
+	_1__GlobalAlertLevel GlobalAlertLevel = 1
+	_2__GlobalAlertLevel GlobalAlertLevel = 2
+	_3__GlobalAlertLevel GlobalAlertLevel = 3
 )

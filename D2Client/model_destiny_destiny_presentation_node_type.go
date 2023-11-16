@@ -13,10 +13,10 @@ type DestinyDestinyPresentationNodeType int32
 
 // List of Destiny.DestinyPresentationNodeType
 const (
-	0__DestinyDestinyPresentationNodeType DestinyDestinyPresentationNodeType = "0"
-	1__DestinyDestinyPresentationNodeType DestinyDestinyPresentationNodeType = "1"
-	2__DestinyDestinyPresentationNodeType DestinyDestinyPresentationNodeType = "2"
-	3__DestinyDestinyPresentationNodeType DestinyDestinyPresentationNodeType = "3"
-	4__DestinyDestinyPresentationNodeType DestinyDestinyPresentationNodeType = "4"
-	5__DestinyDestinyPresentationNodeType DestinyDestinyPresentationNodeType = "5"
+	_0__DestinyDestinyPresentationNodeType DestinyDestinyPresentationNodeType = 0
+	_1__DestinyDestinyPresentationNodeType DestinyDestinyPresentationNodeType = 1
+	_2__DestinyDestinyPresentationNodeType DestinyDestinyPresentationNodeType = 2
+	_3__DestinyDestinyPresentationNodeType DestinyDestinyPresentationNodeType = 3
+	_4__DestinyDestinyPresentationNodeType DestinyDestinyPresentationNodeType = 4
+	_5__DestinyDestinyPresentationNodeType DestinyDestinyPresentationNodeType = 5
 )

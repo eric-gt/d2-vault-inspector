@@ -13,7 +13,7 @@ type GroupsV2MembershipOption int32
 
 // List of GroupsV2.MembershipOption
 const (
-	0__GroupsV2MembershipOption GroupsV2MembershipOption = "0"
-	1__GroupsV2MembershipOption GroupsV2MembershipOption = "1"
-	2__GroupsV2MembershipOption GroupsV2MembershipOption = "2"
+	_0__GroupsV2MembershipOption GroupsV2MembershipOption = 0
+	_1__GroupsV2MembershipOption GroupsV2MembershipOption = 1
+	_2__GroupsV2MembershipOption GroupsV2MembershipOption = 2
 )

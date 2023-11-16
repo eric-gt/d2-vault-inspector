@@ -13,8 +13,8 @@ type DestinyDestinySocketVisibility int32
 
 // List of Destiny.DestinySocketVisibility
 const (
-	0__DestinyDestinySocketVisibility DestinyDestinySocketVisibility = "0"
-	1__DestinyDestinySocketVisibility DestinyDestinySocketVisibility = "1"
-	2__DestinyDestinySocketVisibility DestinyDestinySocketVisibility = "2"
-	3__DestinyDestinySocketVisibility DestinyDestinySocketVisibility = "3"
+	_0__DestinyDestinySocketVisibility DestinyDestinySocketVisibility = 0
+	_1__DestinyDestinySocketVisibility DestinyDestinySocketVisibility = 1
+	_2__DestinyDestinySocketVisibility DestinyDestinySocketVisibility = 2
+	_3__DestinyDestinySocketVisibility DestinyDestinySocketVisibility = 3
 )

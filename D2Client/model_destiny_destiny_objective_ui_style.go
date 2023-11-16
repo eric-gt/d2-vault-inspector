@@ -13,11 +13,11 @@ type DestinyDestinyObjectiveUiStyle int32
 
 // List of Destiny.DestinyObjectiveUiStyle
 const (
-	0__DestinyDestinyObjectiveUiStyle DestinyDestinyObjectiveUiStyle = "0"
-	1__DestinyDestinyObjectiveUiStyle DestinyDestinyObjectiveUiStyle = "1"
-	2__DestinyDestinyObjectiveUiStyle DestinyDestinyObjectiveUiStyle = "2"
-	3__DestinyDestinyObjectiveUiStyle DestinyDestinyObjectiveUiStyle = "3"
-	4__DestinyDestinyObjectiveUiStyle DestinyDestinyObjectiveUiStyle = "4"
-	5__DestinyDestinyObjectiveUiStyle DestinyDestinyObjectiveUiStyle = "5"
-	6__DestinyDestinyObjectiveUiStyle DestinyDestinyObjectiveUiStyle = "6"
+	_0__DestinyDestinyObjectiveUiStyle DestinyDestinyObjectiveUiStyle = 0
+	_1__DestinyDestinyObjectiveUiStyle DestinyDestinyObjectiveUiStyle = 1
+	_2__DestinyDestinyObjectiveUiStyle DestinyDestinyObjectiveUiStyle = 2
+	_3__DestinyDestinyObjectiveUiStyle DestinyDestinyObjectiveUiStyle = 3
+	_4__DestinyDestinyObjectiveUiStyle DestinyDestinyObjectiveUiStyle = 4
+	_5__DestinyDestinyObjectiveUiStyle DestinyDestinyObjectiveUiStyle = 5
+	_6__DestinyDestinyObjectiveUiStyle DestinyDestinyObjectiveUiStyle = 6
 )

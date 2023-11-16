@@ -13,11 +13,11 @@ type IgnoresIgnoreStatus int32
 
 // List of Ignores.IgnoreStatus
 const (
-	0__IgnoresIgnoreStatus IgnoresIgnoreStatus = "0"
-	1__IgnoresIgnoreStatus IgnoresIgnoreStatus = "1"
-	2__IgnoresIgnoreStatus IgnoresIgnoreStatus = "2"
-	4__IgnoresIgnoreStatus IgnoresIgnoreStatus = "4"
-	8__IgnoresIgnoreStatus IgnoresIgnoreStatus = "8"
-	16__IgnoresIgnoreStatus IgnoresIgnoreStatus = "16"
-	32__IgnoresIgnoreStatus IgnoresIgnoreStatus = "32"
+	_0__IgnoresIgnoreStatus IgnoresIgnoreStatus = 0
+	_1__IgnoresIgnoreStatus IgnoresIgnoreStatus = 1
+	_2__IgnoresIgnoreStatus IgnoresIgnoreStatus = 2
+	_4__IgnoresIgnoreStatus IgnoresIgnoreStatus = 4
+	_8__IgnoresIgnoreStatus IgnoresIgnoreStatus = 8
+	_16__IgnoresIgnoreStatus IgnoresIgnoreStatus = 16
+	_32__IgnoresIgnoreStatus IgnoresIgnoreStatus = 32
 )

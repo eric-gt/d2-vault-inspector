@@ -13,10 +13,10 @@ type ForumForumPostPopularity int32
 
 // List of Forum.ForumPostPopularity
 const (
-	0__ForumForumPostPopularity ForumForumPostPopularity = "0"
-	1__ForumForumPostPopularity ForumForumPostPopularity = "1"
-	2__ForumForumPostPopularity ForumForumPostPopularity = "2"
-	3__ForumForumPostPopularity ForumForumPostPopularity = "3"
-	4__ForumForumPostPopularity ForumForumPostPopularity = "4"
-	5__ForumForumPostPopularity ForumForumPostPopularity = "5"
+	_0__ForumForumPostPopularity ForumForumPostPopularity = 0
+	_1__ForumForumPostPopularity ForumForumPostPopularity = 1
+	_2__ForumForumPostPopularity ForumForumPostPopularity = 2
+	_3__ForumForumPostPopularity ForumForumPostPopularity = 3
+	_4__ForumForumPostPopularity ForumForumPostPopularity = 4
+	_5__ForumForumPostPopularity ForumForumPostPopularity = 5
 )

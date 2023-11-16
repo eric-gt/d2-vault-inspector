@@ -13,18 +13,18 @@ type DestinyDestinyTalentNodeState int32
 
 // List of Destiny.DestinyTalentNodeState
 const (
-	0__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = "0"
-	1__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = "1"
-	2__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = "2"
-	3__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = "3"
-	4__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = "4"
-	5__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = "5"
-	6__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = "6"
-	7__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = "7"
-	8__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = "8"
-	9__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = "9"
-	10__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = "10"
-	11__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = "11"
-	12__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = "12"
-	13__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = "13"
+	_0__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = 0
+	_1__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = 1
+	_2__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = 2
+	_3__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = 3
+	_4__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = 4
+	_5__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = 5
+	_6__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = 6
+	_7__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = 7
+	_8__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = 8
+	_9__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = 9
+	_10__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = 10
+	_11__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = 11
+	_12__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = 12
+	_13__DestinyDestinyTalentNodeState DestinyDestinyTalentNodeState = 13
 )

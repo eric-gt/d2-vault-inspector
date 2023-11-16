@@ -13,7 +13,7 @@ type DestinyDestinyStatAggregationType int32
 
 // List of Destiny.DestinyStatAggregationType
 const (
-	0__DestinyDestinyStatAggregationType DestinyDestinyStatAggregationType = "0"
-	1__DestinyDestinyStatAggregationType DestinyDestinyStatAggregationType = "1"
-	2__DestinyDestinyStatAggregationType DestinyDestinyStatAggregationType = "2"
+	_0__DestinyDestinyStatAggregationType DestinyDestinyStatAggregationType = 0
+	_1__DestinyDestinyStatAggregationType DestinyDestinyStatAggregationType = 1
+	_2__DestinyDestinyStatAggregationType DestinyDestinyStatAggregationType = 2
 )

@@ -13,7 +13,7 @@ type FireteamFireteamPublicSearchOption int32
 
 // List of Fireteam.FireteamPublicSearchOption
 const (
-	0__FireteamFireteamPublicSearchOption FireteamFireteamPublicSearchOption = "0"
-	1__FireteamFireteamPublicSearchOption FireteamFireteamPublicSearchOption = "1"
-	2__FireteamFireteamPublicSearchOption FireteamFireteamPublicSearchOption = "2"
+	_0__FireteamFireteamPublicSearchOption FireteamFireteamPublicSearchOption = 0
+	_1__FireteamFireteamPublicSearchOption FireteamFireteamPublicSearchOption = 1
+	_2__FireteamFireteamPublicSearchOption FireteamFireteamPublicSearchOption = 2
 )

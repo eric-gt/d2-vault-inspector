@@ -13,9 +13,9 @@ type DestinyDestinyGamePrivacySetting int32
 
 // List of Destiny.DestinyGamePrivacySetting
 const (
-	0__DestinyDestinyGamePrivacySetting DestinyDestinyGamePrivacySetting = "0"
-	1__DestinyDestinyGamePrivacySetting DestinyDestinyGamePrivacySetting = "1"
-	2__DestinyDestinyGamePrivacySetting DestinyDestinyGamePrivacySetting = "2"
-	3__DestinyDestinyGamePrivacySetting DestinyDestinyGamePrivacySetting = "3"
-	4__DestinyDestinyGamePrivacySetting DestinyDestinyGamePrivacySetting = "4"
+	_0__DestinyDestinyGamePrivacySetting DestinyDestinyGamePrivacySetting = 0
+	_1__DestinyDestinyGamePrivacySetting DestinyDestinyGamePrivacySetting = 1
+	_2__DestinyDestinyGamePrivacySetting DestinyDestinyGamePrivacySetting = 2
+	_3__DestinyDestinyGamePrivacySetting DestinyDestinyGamePrivacySetting = 3
+	_4__DestinyDestinyGamePrivacySetting DestinyDestinyGamePrivacySetting = 4
 )

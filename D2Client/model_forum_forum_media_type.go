@@ -13,8 +13,8 @@ type ForumForumMediaType int32
 
 // List of Forum.ForumMediaType
 const (
-	0__ForumForumMediaType ForumForumMediaType = "0"
-	1__ForumForumMediaType ForumForumMediaType = "1"
-	2__ForumForumMediaType ForumForumMediaType = "2"
-	3__ForumForumMediaType ForumForumMediaType = "3"
+	_0__ForumForumMediaType ForumForumMediaType = 0
+	_1__ForumForumMediaType ForumForumMediaType = 1
+	_2__ForumForumMediaType ForumForumMediaType = 2
+	_3__ForumForumMediaType ForumForumMediaType = 3
 )

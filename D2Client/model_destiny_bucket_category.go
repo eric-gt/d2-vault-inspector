@@ -13,9 +13,9 @@ type DestinyBucketCategory int32
 
 // List of Destiny.BucketCategory
 const (
-	0__DestinyBucketCategory DestinyBucketCategory = "0"
-	1__DestinyBucketCategory DestinyBucketCategory = "1"
-	2__DestinyBucketCategory DestinyBucketCategory = "2"
-	3__DestinyBucketCategory DestinyBucketCategory = "3"
-	4__DestinyBucketCategory DestinyBucketCategory = "4"
+	_0__DestinyBucketCategory DestinyBucketCategory = 0
+	_1__DestinyBucketCategory DestinyBucketCategory = 1
+	_2__DestinyBucketCategory DestinyBucketCategory = 2
+	_3__DestinyBucketCategory DestinyBucketCategory = 3
+	_4__DestinyBucketCategory DestinyBucketCategory = 4
 )

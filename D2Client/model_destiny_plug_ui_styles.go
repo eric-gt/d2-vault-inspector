@@ -13,6 +13,6 @@ type DestinyPlugUiStyles int32
 
 // List of Destiny.PlugUiStyles
 const (
-	0__DestinyPlugUiStyles DestinyPlugUiStyles = "0"
-	1__DestinyPlugUiStyles DestinyPlugUiStyles = "1"
+	_0__DestinyPlugUiStyles DestinyPlugUiStyles = 0
+	_1__DestinyPlugUiStyles DestinyPlugUiStyles = 1
 )

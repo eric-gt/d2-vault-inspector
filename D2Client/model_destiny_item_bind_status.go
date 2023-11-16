@@ -13,8 +13,8 @@ type DestinyItemBindStatus int32
 
 // List of Destiny.ItemBindStatus
 const (
-	0__DestinyItemBindStatus DestinyItemBindStatus = "0"
-	1__DestinyItemBindStatus DestinyItemBindStatus = "1"
-	2__DestinyItemBindStatus DestinyItemBindStatus = "2"
-	3__DestinyItemBindStatus DestinyItemBindStatus = "3"
+	_0__DestinyItemBindStatus DestinyItemBindStatus = 0
+	_1__DestinyItemBindStatus DestinyItemBindStatus = 1
+	_2__DestinyItemBindStatus DestinyItemBindStatus = 2
+	_3__DestinyItemBindStatus DestinyItemBindStatus = 3
 )

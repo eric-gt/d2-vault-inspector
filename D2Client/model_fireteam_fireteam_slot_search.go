@@ -13,7 +13,7 @@ type FireteamFireteamSlotSearch int32
 
 // List of Fireteam.FireteamSlotSearch
 const (
-	0__FireteamFireteamSlotSearch FireteamFireteamSlotSearch = "0"
-	1__FireteamFireteamSlotSearch FireteamFireteamSlotSearch = "1"
-	2__FireteamFireteamSlotSearch FireteamFireteamSlotSearch = "2"
+	_0__FireteamFireteamSlotSearch FireteamFireteamSlotSearch = 0
+	_1__FireteamFireteamSlotSearch FireteamFireteamSlotSearch = 1
+	_2__FireteamFireteamSlotSearch FireteamFireteamSlotSearch = 2
 )

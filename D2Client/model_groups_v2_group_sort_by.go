@@ -13,8 +13,8 @@ type GroupsV2GroupSortBy int32
 
 // List of GroupsV2.GroupSortBy
 const (
-	0__GroupsV2GroupSortBy GroupsV2GroupSortBy = "0"
-	1__GroupsV2GroupSortBy GroupsV2GroupSortBy = "1"
-	2__GroupsV2GroupSortBy GroupsV2GroupSortBy = "2"
-	3__GroupsV2GroupSortBy GroupsV2GroupSortBy = "3"
+	_0__GroupsV2GroupSortBy GroupsV2GroupSortBy = 0
+	_1__GroupsV2GroupSortBy GroupsV2GroupSortBy = 1
+	_2__GroupsV2GroupSortBy GroupsV2GroupSortBy = 2
+	_3__GroupsV2GroupSortBy GroupsV2GroupSortBy = 3
 )

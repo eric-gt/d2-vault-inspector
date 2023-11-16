@@ -13,9 +13,9 @@ type FireteamFireteamPlatformInviteResult int32
 
 // List of Fireteam.FireteamPlatformInviteResult
 const (
-	0__FireteamFireteamPlatformInviteResult FireteamFireteamPlatformInviteResult = "0"
-	1__FireteamFireteamPlatformInviteResult FireteamFireteamPlatformInviteResult = "1"
-	2__FireteamFireteamPlatformInviteResult FireteamFireteamPlatformInviteResult = "2"
-	3__FireteamFireteamPlatformInviteResult FireteamFireteamPlatformInviteResult = "3"
-	4__FireteamFireteamPlatformInviteResult FireteamFireteamPlatformInviteResult = "4"
+	_0__FireteamFireteamPlatformInviteResult FireteamFireteamPlatformInviteResult = 0
+	_1__FireteamFireteamPlatformInviteResult FireteamFireteamPlatformInviteResult = 1
+	_2__FireteamFireteamPlatformInviteResult FireteamFireteamPlatformInviteResult = 2
+	_3__FireteamFireteamPlatformInviteResult FireteamFireteamPlatformInviteResult = 3
+	_4__FireteamFireteamPlatformInviteResult FireteamFireteamPlatformInviteResult = 4
 )

@@ -13,7 +13,7 @@ type DestinyDestinyItemSortType int32
 
 // List of Destiny.DestinyItemSortType
 const (
-	0__DestinyDestinyItemSortType DestinyDestinyItemSortType = "0"
-	1__DestinyDestinyItemSortType DestinyDestinyItemSortType = "1"
-	2__DestinyDestinyItemSortType DestinyDestinyItemSortType = "2"
+	_0__DestinyDestinyItemSortType DestinyDestinyItemSortType = 0
+	_1__DestinyDestinyItemSortType DestinyDestinyItemSortType = 1
+	_2__DestinyDestinyItemSortType DestinyDestinyItemSortType = 2
 )

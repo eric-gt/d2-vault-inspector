@@ -13,7 +13,7 @@ type StreamingDropStateEnum int32
 
 // List of Streaming.DropStateEnum
 const (
-	0__StreamingDropStateEnum StreamingDropStateEnum = "0"
-	1__StreamingDropStateEnum StreamingDropStateEnum = "1"
-	2__StreamingDropStateEnum StreamingDropStateEnum = "2"
+	_0__StreamingDropStateEnum StreamingDropStateEnum = 0
+	_1__StreamingDropStateEnum StreamingDropStateEnum = 1
+	_2__StreamingDropStateEnum StreamingDropStateEnum = 2
 )

@@ -13,9 +13,9 @@ type ApplicationsApplicationStatus int32
 
 // List of Applications.ApplicationStatus
 const (
-	0__ApplicationsApplicationStatus ApplicationsApplicationStatus = "0"
-	1__ApplicationsApplicationStatus ApplicationsApplicationStatus = "1"
-	2__ApplicationsApplicationStatus ApplicationsApplicationStatus = "2"
-	3__ApplicationsApplicationStatus ApplicationsApplicationStatus = "3"
-	4__ApplicationsApplicationStatus ApplicationsApplicationStatus = "4"
+	_0__ApplicationsApplicationStatus ApplicationsApplicationStatus = 0
+	_1__ApplicationsApplicationStatus ApplicationsApplicationStatus = 1
+	_2__ApplicationsApplicationStatus ApplicationsApplicationStatus = 2
+	_3__ApplicationsApplicationStatus ApplicationsApplicationStatus = 3
+	_4__ApplicationsApplicationStatus ApplicationsApplicationStatus = 4
 )

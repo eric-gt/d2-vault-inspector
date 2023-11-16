@@ -13,7 +13,7 @@ type DestinyDestinyVendorItemRefundPolicy int32
 
 // List of Destiny.DestinyVendorItemRefundPolicy
 const (
-	0__DestinyDestinyVendorItemRefundPolicy DestinyDestinyVendorItemRefundPolicy = "0"
-	1__DestinyDestinyVendorItemRefundPolicy DestinyDestinyVendorItemRefundPolicy = "1"
-	2__DestinyDestinyVendorItemRefundPolicy DestinyDestinyVendorItemRefundPolicy = "2"
+	_0__DestinyDestinyVendorItemRefundPolicy DestinyDestinyVendorItemRefundPolicy = 0
+	_1__DestinyDestinyVendorItemRefundPolicy DestinyDestinyVendorItemRefundPolicy = 1
+	_2__DestinyDestinyVendorItemRefundPolicy DestinyDestinyVendorItemRefundPolicy = 2
 )

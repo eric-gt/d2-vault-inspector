@@ -13,9 +13,9 @@ type SocialFriendsPlatformFriendType int32
 
 // List of Social.Friends.PlatformFriendType
 const (
-	0__SocialFriendsPlatformFriendType SocialFriendsPlatformFriendType = "0"
-	1__SocialFriendsPlatformFriendType SocialFriendsPlatformFriendType = "1"
-	2__SocialFriendsPlatformFriendType SocialFriendsPlatformFriendType = "2"
-	3__SocialFriendsPlatformFriendType SocialFriendsPlatformFriendType = "3"
-	4__SocialFriendsPlatformFriendType SocialFriendsPlatformFriendType = "4"
+	_0__SocialFriendsPlatformFriendType SocialFriendsPlatformFriendType = 0
+	_1__SocialFriendsPlatformFriendType SocialFriendsPlatformFriendType = 1
+	_2__SocialFriendsPlatformFriendType SocialFriendsPlatformFriendType = 2
+	_3__SocialFriendsPlatformFriendType SocialFriendsPlatformFriendType = 3
+	_4__SocialFriendsPlatformFriendType SocialFriendsPlatformFriendType = 4
 )

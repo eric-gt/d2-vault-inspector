@@ -13,6 +13,6 @@ type DestinyVendorDisplayCategorySortOrder int32
 
 // List of Destiny.VendorDisplayCategorySortOrder
 const (
-	0__DestinyVendorDisplayCategorySortOrder DestinyVendorDisplayCategorySortOrder = "0"
-	1__DestinyVendorDisplayCategorySortOrder DestinyVendorDisplayCategorySortOrder = "1"
+	_0__DestinyVendorDisplayCategorySortOrder DestinyVendorDisplayCategorySortOrder = 0
+	_1__DestinyVendorDisplayCategorySortOrder DestinyVendorDisplayCategorySortOrder = 1
 )
