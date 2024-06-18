@@ -13,22 +13,31 @@ build:
 run:
 	@go run cmd/api/main.go
 
-# Create DB container
+# Create Docker Environment
 docker-run:
-	@if docker compose up 2>/dev/null; then \
-		: ; \
+	@if command -v docker 2>/dev/null; then \
+		docker compose up -d ; \
 	else \
 		echo "Falling back to Docker Compose V1"; \
-		docker-compose up; \
+		docker-compose up -d; \
 	fi
 
-# Shutdown DB container
+# Shutdown Docker Environment
 docker-down:
 	@if docker compose down 2>/dev/null; then \
 		: ; \
 	else \
 		echo "Falling back to Docker Compose V1"; \
 		docker-compose down; \
+	fi
+
+# build the images
+docker-build:
+	@if dockercompose build 2>/dev/null; then \
+		: ; \
+	else \
+		echo "Falling back to Docker Compose V1"; \
+		docker-compose build; \
 	fi
 
 # Test the application
@@ -39,7 +48,7 @@ test:
 # Clean the binary
 clean:
 	@echo "Cleaning..."
-	@rm -f main
+	@rm -f ./tmp/main
 
 # Live Reload
 watch:
