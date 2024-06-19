@@ -1,3 +1,5 @@
+ariga.io/atlas v0.24.0 h1:ssK25BIfVbVIYt+STIfqgrlEpfJrLtKtdWU2/U23YP4=
+ariga.io/atlas v0.24.0/go.mod h1:uSfJty48trd+YIWkRp7OENP5Wjgy6KzVW6JHv6tko2o=
 github.com/a-h/templ v0.2.707 h1:T1Gkd2ugbRglZ9rYw/VBchWOSZVKmetDbBkm4YubM7U=
 github.com/a-h/templ v0.2.707/go.mod h1:5cqsugkq9IerRNucNsI4DEamdHPsoGMQy99DzydLhM8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

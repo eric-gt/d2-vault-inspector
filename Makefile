@@ -67,4 +67,7 @@ watch:
 	    fi; \
 	fi
 
+generate-migration:
+	cd ./internal/database && atlas migrate hash && atlas migrate diff --env local
+
 .PHONY: all build run test clean
